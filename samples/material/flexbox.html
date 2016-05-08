@@ -1,0 +1,133 @@
+<h2>Breakpoints</h2>
+<div layout="row" layout-wrap>
+    <div flex style="border: 1px solid">
+        768px
+    </div>
+    <div flex style="border: 1px solid">
+        1000px
+    </div>
+    <div flex style="border: 1px solid">
+        1200px
+    </div>
+</div>
+
+<h2 class="tm24">Material angular styles responsive</h2>
+<h3>Layout</h3>
+<p>Exp 1</p>
+<div>
+    <p> Use the layout attribute on an element to arrange its children horizontally in a row (layout="row"), or
+        vertically in a column (layout="column").
+    </p>
+
+    <div layout="row">
+        <div class="bg-cyan">I'm left.</div>
+        <div class="bg-light-green">I'm right.</div>
+    </div>
+    <div layout="column">
+        <div class="bg-goal-chips">I'm above.</div>
+        <div class="bg-deep-orange">I'm below.</div>
+    </div>
+</div>
+
+<p>To make your layout change depending upon the device screen size, there are other layout attributes available:</p>
+
+<p><b>layout   </b>Sets the default layout on all devices.</p>
+<p><b>layout-sm</b>Sets the layout on devices less than 768px wide (phones).</p>
+<p><b>layout-gt-sm	</b>Sets the layout on devices greater than 768px wide (bigger than phones).</p>
+<p><b>layout-md	    </b>Sets the layout on devices between 768px and 1000px wide (tablets in portrait).</p>
+<p><b>layout-gt-md	</b>Sets the layout on devices greater than 1000px wide (bigger than tablets in portrait).</p>
+<p><b>layout-lg	    </b>Sets the layout on devices between 1000 and 1200px wide (tablets in landscape).</p>
+<p><b>layout-gt-lg	</b>Sets the layout on devices greater than 1200px wide (computers and large screens).</p>
+
+<p> <b>layout-margin</b> adds margin around each flex child. It also adds a margin to the layout container itself.<br>
+    <b>layout-padding</b> adds padding inside each flex child. It also adds padding to the layout container itself.<br>
+    <b>layout-fill</b> forces the layout element to fill its parent container.</p>
+
+<div layout="row" style="height: 128px !important;">
+    <div layout="row" layout-margin >
+        <div flex class="bg-dark-red">Parent layout and this element have margins.</div>
+    </div>
+    <div layout="row" layout-padding >
+        <div flex class="bg-dark-red">Parent layout and this element have padding.</div>
+    </div>
+    <div layout="row" layout-fill >
+        <div flex class="bg-dark-red">Parent layout is set to fill available space.</div>
+    </div>
+    <div layout="row" layout-padding layout-margin layout-fill>
+        <div flex  class="bg-dark-red">I am using all three at once.</div>
+    </div>
+</div>
+
+<h3>Grid system</h3>
+<div>
+    <p>Добавьте flex атрибут к дочернему эдементу layout и поучите растягивающуюся область</p>
+    <p>Пример 1</p>
+    <div layout="row">
+        <div flex class="bg-dark-red">
+            [flex]
+        </div>
+        <div flex class="bg-light-green">
+            [flex]
+        </div>
+        <div flex hide-sm class="bg-cyan">
+            [flex]
+        </div>
+    </div>
+
+    <p>Пример 2</p>
+    <div layout="row" layout-wrap>
+        <div flex="33" class="bg-cyan">
+            [flex="33"]
+        </div>
+        <div flex="55" class="bg-area-chips">
+            [flex="55"]
+        </div>
+        <div flex class="bg-grey">
+            [flex]
+        </div>
+        <div flex="66" class="bg-light-green">
+            [flex]
+        </div>
+        <div flex="33" class="bg-goal-chips">
+            [flex]
+        </div>
+    </div>
+
+    <p>Flex and offset attributes.</p>
+
+    <p><b>flex	    </b>    Sets flex.</p>
+    <p><b>flex-sm	</b>    Sets flex on devices less than 768px wide.</p>
+    <p><b>flex-gt-sm</b>	Sets flex on devices greater than 768px wide.</p>
+    <p><b>flex-md	</b>    Sets flex on devices between 768px and 1000px wide.</p>
+    <p><b>flex-gt-md</b>	Sets flex on devices greater than 1000px wide.</p>
+    <p><b>flex-lg	</b>    Sets flex on devices between 1000px and 1200px.</p>
+    <p><b>flex-gt-lg</b>	Sets flex on devices greater than 1200px wide.</p>
+</div>
+
+<h3>Hide and Show Attributes</h3>
+<p><b>hide	        </b> display: none</p>
+<p><b>hide-sm	    </b> display: none on devices less than 768px wide.</p>
+<p><b>hide-gt-sm	</b> display: none on devices greater than 768px wide.</p>
+<p><b>hide-md	    </b> display: none on devices between 768px and 1000px wide.</p>
+<p><b>hide-gt-md	</b> display: none on devices greater than 1000px wide.</p>
+<p><b>hide-lg	    </b> display: none on devices between 1000px and 1200px.</p>
+<p><b>hide-gt-lg	</b> display: none on devices greater than 1200px wide.</p>
+<p><b>show	        </b> Negates hide.</p>
+<p><b>show-sm	    </b> Negates hide on devices less than 768px wide.</p>
+<p><b>show-gt-sm	</b> Negates hide on devices greater than 768px wide.</p>
+<p><b>show-md	    </b> Negates hide on devices between 768px and 1000px wide.</p>
+<p><b>show-gt-md	</b> Negates hide on devices greater than 1000px wide.</p>
+<p><b>show-lg	    </b> Negates hide on devices between 1000px and 1200px.</p>
+<p><b>show-gt-lg	</b> Negates hide on devices greater than 1200px wide.</p>
+
+<h3>Hide and Show Variables</h3>
+<p>$mdMedia is used to evaluate whether a given media query is true or false given the current device's screen / window size. The media query will be re-evaluated on resize, allowing you to register a watch.
+</p>
+<p>$mdMedia also has pre-programmed support for media queries that match the layout breakpoints. (sm, gt-sm, md, gt-md, lg, gt-lg).</p>
+<p><b>$mdMedia('sm')	</b> Negates hide on devices less than 768px wide.</p>
+<p><b>$mdMedia('gt-sm')	</b> Negates hide on devices greater than 768px wide.</p>
+<p><b>$mdMedia('md')	</b> Negates hide on devices between 768px and 1000px wide.</p>
+<p><b>$mdMedia('gt-md')	</b> Negates hide on devices greater than 1000px wide.</p>
+<p><b>$mdMedia('lg')	</b> Negates hide on devices between 1000px and 1200px.</p>
+<p><b>$mdMedia('gt-lg')	</b> Negates hide on devices greater than 1200px wide.</p>
+

@@ -1,0 +1,21 @@
+<style type="text/css">
+
+    .glyph {
+        width: 150px;
+    }
+
+    .glyph-text {
+        text-transform: none;
+    }
+
+</style>
+
+<div>
+    <div class="glyphs">
+        <md-button class="glyph" ng-repeat="icon in icons">
+            <md-icon md-svg-icon="icons:{{icon}}"></md-icon>
+            <div class="glyph-text">{{icon}}</div>
+        </md-button>
+        <div class="cleafix"></div>
+    </div>
+</div>

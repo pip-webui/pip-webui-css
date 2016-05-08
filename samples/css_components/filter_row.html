@@ -1,0 +1,30 @@
+
+<img src="http://i.imgur.com/NK5hK7J.png" style="width: 400px">
+
+<div class=" pip-filter-row divider-bottom" layout="row" layout-align="start center">
+    <div class="pip-filter-text">
+       Text
+    </div>
+
+    <md-input-container class="md-block">
+        <md-select ng-disable="{{disableControls}}" flex
+                   aria-label="Status" ng-model="topicModel1">
+            <md-option ng-value="opt" ng-repeat="opt in topic1">
+                {{::opt}}
+            </md-option>
+        </md-select>
+    </md-input-container>
+
+
+    <div class="pip-filter-text">
+        in
+    </div>
+    <md-input-container class="md-block">
+        <md-select ng-disable="{{disableControls}}" flex
+                   aria-label="Status"  ng-model="topicModel2">
+            <md-option ng-value="opt" ng-repeat="opt in topic2">
+                {{::opt}}
+            </md-option>
+        </md-select>
+    </md-input-container>
+</div>

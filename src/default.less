@@ -1,0 +1,88 @@
+a, a:hover, a:focus, a:active {
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input, p, div, li, md-list-item, md-list, a, md-autocomplete, span, button {
+  &:focus {
+    outline-width: 0px !important;
+  }
+
+}
+
+.md-contact-chips .md-chips .md-chip .md-contact-avatar img {
+  width: 32px; // наверное нельзя так делать, но это переопределение нужно, ибо у нас бывают
+  // разные картинки и они не подходят под стандарты
+}
+
+md-list {
+  md-list-item {
+    .md-button {
+      padding-right: 0px;
+    }
+  }
+}
+
+.md-chips .md-chip-input-container md-autocomplete, .md-chips .md-chip-input-container md-autocomplete-wrap {
+  min-width: 230px !important;
+}
+
+.md-button {
+  min-width: 48px;
+}
+
+.pip-no-hint-input {
+  .md-errors-spacer {
+    min-height: 0px;
+  }
+}
+
+md-datepicker {
+  background: transparent !important;
+
+  .md-datepicker-input-container {
+    border-bottom-color: rgba(0,0,0,0.12) !important;
+  }
+
+  .md-datepicker-input{
+    font-size: 16px;
+    font-weight: 400;
+    background: transparent !important;
+  }
+
+  .md-datepicker-triangle-button {
+    background: transparent !important;
+  }
+
+  .md-datepicker-expand-triangle {
+    margin-top: 8px;
+    border-left: 5px solid transparent !important;
+    border-right: 5px solid transparent !important;
+    border-top: 6px solid !important;
+    border-top-color: rgba(0,0,0,0.54) !important;
+  }
+}
+
+
+.md-autocomplete-suggestions li {
+  line-height: 40px;
+  height: 40px;
+}
+
+.autocomplete-custom-template li {
+  //border-bottom: 1px solid #ccc;
+  height: 40px;
+  white-space: normal;
+}
+
+
+.autocomplete-custom-template li:last-child {
+  border-bottom-width: 0;
+}
+
+.autocomplete-custom-template md-icon {
+  height: 18px;
+  width: 18px;
+  margin-right: 16px;
+}

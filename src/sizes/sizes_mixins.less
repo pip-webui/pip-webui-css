@@ -1,0 +1,50 @@
+// @file Sizing mixins
+// @copyright Digital Living Software Corp. 2014-2015
+
+.w(@size) { width: @size !important; }
+.min-w(@size) { min-width: @size !important; }
+.max-w(@size) { max-width: @size !important; }
+
+.h(@size) { height: @size !important; }
+.min-h(@size) { min-height: @size !important; }
+.max-h(@size) { max-height: @size !important; }
+
+.m(@size) { margin: @size !important; }
+.tm(@size) { margin-top: @size !important; }
+.bm(@size) { margin-bottom: @size !important; }
+.lm(@size) { margin-left: @size !important; }
+.rm(@size) { margin-right: @size !important; }
+
+.p(@size) { padding: @size !important; }
+.tp(@size) { padding-top: @size !important; }
+.bp(@size) { padding-bottom: @size !important; }
+.lp(@size) { padding-left: @size !important; }
+.rp(@size) { padding-right: @size !important; }
+
+
+.size(@width; @height) {
+  width:  @width;
+  height: @height;
+}
+
+.square(@size) {
+  .size(@size; @size);
+}
+
+.circle(@size){
+  .size(@size; @size);
+  height: @size !important;
+  border-radius: @size / 2;
+}
+
+.resizable(@direction) {
+  resize: @direction; // Options: horizontal, vertical, both
+  overflow: auto; // Per CSS3 UI, `resize` only applies when `overflow` isn't `visible`
+}
+
+.box-sizing (@type: border-box) {
+	-webkit-box-sizing: @type;
+	-moz-box-sizing:    @type;
+  -ms-box-sizing:     @type;
+	box-sizing:         @type;
+}

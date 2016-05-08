@@ -1,0 +1,107 @@
+// @file Animation mixins
+// @copyright Digital Living Software Corp. 2014-2015
+
+// Vendor Prefixes
+//
+// All vendor mixins are deprecated as of v3.2.0 due to the introduction of
+// Autoprefixer in our Gruntfile. They will be removed in v4.
+
+// - Animations
+// - Backface visibility
+// - Box shadow
+// - Box sizing
+// - Content columns
+// - Hyphens
+// - Placeholder text
+// - Transformations
+// - Transitions
+// - User Select
+
+// Animations
+// .animation(@animation) {
+//   -webkit-animation: @animation;
+//        -o-animation: @animation;
+//           animation: @animation;
+// }
+
+.animation (@name, @duration: 300ms, @delay: 0, @ease: ease) {
+  -webkit-animation: @name @duration @delay @ease;
+  -moz-animation: @name @duration @delay @ease;
+  -ms-animation: @name @duration @delay @ease;
+  -o-animation: @name @duration @delay @ease;
+  animation: @name @duration @delay @ease;
+}
+
+.animation-name(@name) {
+  -webkit-animation-name: @name;
+  animation-name: @name;
+}
+
+.animation-duration(@duration) {
+  -webkit-animation-duration: @duration;
+  animation-duration: @duration;
+}
+
+.animation-timing-function(@timing-function) {
+  -webkit-animation-timing-function: @timing-function;
+  animation-timing-function: @timing-function;
+}
+
+.animation-delay(@delay) {
+  -webkit-animation-delay: @delay;
+  animation-delay: @delay;
+}
+
+.animation-iteration-count(@iteration-count) {
+  -webkit-animation-iteration-count: @iteration-count;
+  animation-iteration-count: @iteration-count;
+}
+
+.animation-direction(@direction) {
+  -webkit-animation-direction: @direction;
+  animation-direction: @direction;
+}
+
+.animation-fill-mode(@fill-mode) {
+  -webkit-animation-fill-mode: @fill-mode;
+  animation-fill-mode: @fill-mode;
+}
+
+// Backface visibility
+// Prevent browsers from flickering when using CSS 3D transforms.
+// Default value is `visible`, but can be changed to `hidden`
+
+.backface-visibility(@visibility) {
+  -webkit-backface-visibility: @visibility;
+  -moz-backface-visibility: @visibility;
+  backface-visibility: @visibility;
+}
+
+
+@-webkit-keyframes blink-hint {
+  0%   { opacity: 0.38; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.38; }
+}
+@-moz-keyframes blink-hint {
+  0%   { opacity: 0.38; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.38; }
+}
+@-o-keyframes blink-hint {
+  0%   { opacity: 0.38; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.38; }
+}
+@keyframes blink-hint {
+  0%   { opacity: 0.38; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.38; }
+}
+
+.pip-blink(){
+  -webkit-animation: blink-hint 2s infinite; /* Safari 4+ */
+  -moz-animation:    blink-hint 2s infinite; /* Fx 5+ */
+  -o-animation:      blink-hint 2s infinite; /* Opera 12+ */
+  animation:         blink-hint 2s infinite; /* IE 10+, Fx 29+ */
+}

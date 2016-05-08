@@ -1,0 +1,68 @@
+<style>
+    button {
+        margin-right: 8px !important;
+    }
+</style>
+<div>
+    <div layout="row" layout-sm="column" layout-wrap flex class="bm16">
+        <md-button>Title</md-button>
+        <md-button md-no-ink class="md-primary">Primary (md-noink)</md-button>
+        <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
+        <md-button class="md-warn">Title</md-button>
+    </div>
+    <div layout="row" layout-sm="column" layout-wrap flex class="bm16">
+        <md-button class="md-raised">Button</md-button>
+        <md-button class="md-raised md-primary">Primary</md-button>
+        <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
+        <md-button class="md-raised md-warn">Warn</md-button>
+
+    </div>
+    <div layout="row" layout-sm="column"  layout-wrap class="bm16">
+        <md-button class="md-fab" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:image"></md-icon>
+        </md-button>
+        <md-button class="md-fab md-primary" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:dream"></md-icon>
+        </md-button>
+        <md-button class="md-fab" ng-disabled="true" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:star"></md-icon>
+        </md-button>
+
+    </div>
+    <div layout="row" layout-sm="column"  layout-wrap class="bm16">
+        <md-button class="md-fab md-mini" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:admin"></md-icon>
+        </md-button>
+        <md-button class="md-fab md-primary md-mini" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:bug"></md-icon>
+        </md-button>
+        <md-button class="md-fab md-mini" ng-disabled="true" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:lamp"></md-icon>
+        </md-button>
+    </div>
+
+    <div layout="row" layout-sm="column"  layout-wrap class="bm16">
+        <md-button class="md-icon-button" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:preview"></md-icon>
+        </md-button>
+        <md-button class="md-icon-button md-primary" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:paid"></md-icon>
+        </md-button>
+        <md-button class="md-icon-button" ng-disabled="true" aria-label="õõõ">
+            <md-icon md-svg-icon="icons:folder"></md-icon>
+        </md-button>
+    </div>
+
+    <div layout="row" layout-sm="column" layout-wrap class="bm16">
+        <md-button ng-href="{{googleUrl}}" target="_blank">Default Link</md-button>
+        <md-button class="md-primary" ng-href="{{googleUrl}}" target="_blank">Primary Link</md-button>
+        <md-button>Default Button</md-button>
+    </div>
+    <div layout="row" layout-sm="column"  layout-wrap class="bm16">
+        <md-button class="md-primary md-hue-1">Primary Hue 1</md-button>
+        <md-button class="md-warn md-raised md-hue-2">Warn Hue 2</md-button>
+        <md-button class="md-accent">Accent</md-button>
+        <md-button class="md-accent md-raised md-hue-1">Accent Hue 1</md-button>
+    </div>
+
+</div>

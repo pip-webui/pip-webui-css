@@ -1,0 +1,59 @@
+
+<div class="pip-blink-text">Some blink text</div>
+<md-input-container ng-class="{'pip-blink-input-container' : !inputBlink || inputBlink == ''}">
+    <label>Input</label>
+    <input ng-model="inputBlink">
+</md-input-container>
+
+<h2>Primary</h2>
+<md-input-container>
+    <label>Input</label>
+    <input ng-model="input1">
+</md-input-container>
+<md-input-container>
+    <label>Input (Disabled)</label>
+    <input ng-model="input2" disabled>
+</md-input-container>
+<md-input-container flex>
+    <label>Textarea</label>
+    <textarea ng-model="input3" columns="1" md-maxlength="150"></textarea>
+</md-input-container>
+
+<h2>Error</h2>
+
+<form name="projectForm">
+    <md-input-container>
+        <label>Title</label>
+        <input md-maxlength="30" required ng-model="input4" name="input4">
+
+        <div ng-messages="projectForm.input4.$error">
+            <div ng-message="required">This is required.</div>
+            <div ng-message="md-maxlength">The input has to be less than 30 characters long.</div>
+        </div>
+    </md-input-container>
+
+    <md-input-container>
+        <label>Title</label>
+        <input required name="input5" ng-model="input5">
+
+        <div ng-messages="projectForm.input5.$error">
+            <div ng-message="required">This is required.</div>
+        </div>
+    </md-input-container>
+    <md-input-container>
+        <label>Hourly Rate (USD)</label>
+        <input required type="number" step="any" name="input6" ng-model="input6" min="800" max="4999">
+
+        <div ng-messages="projectForm.input6.$error">
+            <div ng-message="required">You've got to charge something! You can't just <b>give away</b> a Missile Defense
+                System.
+            </div>
+            <div ng-message="min">You should charge at least $800 an hour. This job is a big deal... if you mess up,
+                everyone dies!
+            </div>
+            <div ng-message="max">$5,000 an hour? That's a little ridiculous. I doubt event Bill Clinton could afford
+                that.
+            </div>
+        </div>
+    </md-input-container>
+</form>

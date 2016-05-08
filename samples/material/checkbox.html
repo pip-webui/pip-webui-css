@@ -1,0 +1,14 @@
+<div class="demo-tab" ng-init="withInk = true; withoutInk = false">
+	<md-checkbox ng-model="withInk">
+		With Ink | Model : {{withInk}}
+	</md-checkbox>
+	<md-checkbox ng-disabled="true" ng-model="withInk">
+		Disabled {{withInk}}
+	</md-checkbox>
+	<md-checkbox md-no-ink ng-model="withoutInk">
+		Without Ink | Model : {{withoutInk}}
+	</md-checkbox>
+	<md-checkbox ng-disabled="true" ng-model="withoutInk">
+		Disabled {{withoutInk}}
+	</md-checkbox>
+</div>

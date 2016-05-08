@@ -1,0 +1,17 @@
+<h2>Primary</h2>
+<md-datepicker ng-model="data.startDate"
+               md-placeholder="startLabel"
+               ng-change="onChangeStartDate()"
+               aria-label="START-DATE">
+</md-datepicker>
+
+<p ng-if="data.showDate">
+    You choose date: {{data.showDate}}
+</p>
+
+<h2>Disabled</h2>
+<md-datepicker ng-model="data.disabledDate"
+               md-placeholder="disabledLabel"
+               disabled="data.disabled"
+               aria-label="DISABLED-DATE">
+</md-datepicker>

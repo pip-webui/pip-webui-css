@@ -1,0 +1,34 @@
+<p> Тег для отображения типа. Используется для многих списков. Примеры: goals, news, announcement(admin), guides
+    (admin) </p>
+<p> Пример использования данного компонента в списке показан на вкладке
+    <a href="http://localhost:8005/samples/css_components/index.html#/ref_list">Reference list </a>
+</p>
+
+<img src="http://i.imgur.com/lAkgOwM.png" style="width: 400px">
+
+<div layout="row" layout-align="end center" style="width: 100px">
+    <md-chip class="pip-type-chip pip-type-chip-right">
+        <div class="pip-text">INFO</div>
+    </md-chip>
+</div>
+
+<div layout="row" layout-align="end center" style="width: 100px">
+    <md-chip class="pip-type-chip pip-type-little-chip pip-type-chip-right">
+        <div class="pip-text">OBJECTIVE</div>
+    </md-chip>
+</div>
+
+<div>
+    <div class="pip-chip rm4" ng-repeat="tag in tags">
+        <div class="pip-text">{{::tag}}</div>
+    </div>
+</div>
+
+<div>
+    <div class="pip-type-chip pip-type-chip-left">
+        <span>{{pipTypeLocal | uppercase}}</span>
+    </div>
+    <div class="pip-chip" ng-repeat="tag in tags">
+        <span>{{::tag}}</span>
+    </div>
+</div>

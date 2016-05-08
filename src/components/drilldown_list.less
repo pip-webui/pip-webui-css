@@ -1,0 +1,89 @@
+// @file Drilldown List CSS styles
+// @copyright Digital Living Software Corp. 2014-2015
+// @todo
+// - Shall we use a regular list here?
+// - We shall define other components (pic, counter, chevron) 
+
+.pip-drilldown-list {
+  .pip-drilldown-list-item {
+    height: 48px;
+    width: 100%;
+    margin: 0px !important;
+    padding-left: 24px;
+    padding-right: 16px;
+    border-radius: 0px !important;
+
+    .pip-content{
+      .flex();
+      .flex-direction-row();
+      .flex-vertical-center();
+      width: 100%;
+    }
+
+    &.pip-selected {
+      padding-left: 19px;
+      background-color: rgba(158, 158, 158, 0.2);
+      border-left: 5px solid rgba(33, 150, 243, 0.5) !important;
+    }
+  
+    @media (max-width: 768px) {
+      padding-left: 16px;
+      padding-right: 10px;
+      
+      &.pip-selected{
+        padding-left: 11px;
+      }
+    }
+  
+    .flex();
+    .flex-direction-row();
+    .flex-vertical-center();
+    .flex-horizontal-start();
+  
+    text-transform: none !important;//capitalize;
+    font: @font-subhead2;
+  
+    .pip-title {
+      text-align: justify;
+      text-align: start;
+      .flex();
+      .text-overflow();
+      margin: 0px;
+      margin-right: 16px;
+
+      flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+
+      box-sizing: border-box;
+    }
+
+    .pip-icon {
+      margin-right: 26px;
+    }
+  
+  }
+}
+
+.generate-drilldown (@name, @color) {
+  .@{name} {
+
+      .pip-drilldown-list-item {
+
+        &.pip-selected {
+          border-left: 5px solid @color !important;
+        }
+    }
+  }
+}
+
+
+.generate-drilldown(blue,                @color-blue-hue);
+.generate-drilldown(pink,                @color-pink-hue);
+.generate-drilldown(orange,              @color-orange-hue);
+.generate-drilldown(amber,               @color-amber-hue);
+.generate-drilldown(green,               @color-green-hue);
+.generate-drilldown(navy,                @color-navy-hue);
+.generate-drilldown(grey,                @color-grey-hue);
+.generate-drilldown(dark,                @color-dark-hue);
+.generate-drilldown(black,               @color-black-hue);

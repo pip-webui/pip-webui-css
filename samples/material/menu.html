@@ -1,0 +1,17 @@
+<h2 class="md-title">Simple dropdown menu</h2>
+<p>Applying the <code>md-menu-origin</code> and <code>md-menu-align-target</code> attributes ensure that the menu elements align.
+    Note: If you select the Redial menu option, then a modal dialog will zoom out of the phone icon button.</p>
+
+<md-menu md-position-mode="target-right target" >
+    <md-button aria-label="Open demo menu" class="md-icon-button" ng-click="$mdOpenMenu($event)">
+        <md-icon  md-svg-icon="icons:vdots"></md-icon>
+    </md-button>
+    <md-menu-content width="6">
+        <md-menu-item ng-repeat="item in [1, 2, 3]">
+            <md-button ng-click="ctrl.announceClick($index)">
+                <md-icon md-menu-align-target md-svg-icon="icons:document"></md-icon>
+                Option {{item}}
+            </md-button>
+        </md-menu-item>
+    </md-menu-content>
+</md-menu>

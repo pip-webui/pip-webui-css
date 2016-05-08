@@ -1,0 +1,26 @@
+.f24 { font-size: 24px; }
+.f20 { font-size: 20px; }
+.f16 { font-size: 16px; }
+.f14 { font-size: 14px; }
+.f12 { font-size: 12px; }
+
+.selected-state {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.app-fonts p{ margin: 0px}
+
+.app-animation > div{
+	width:100px;
+	height:100px;
+	background:#676470;
+	margin: 0 auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+
+}
+
+.color:hover
+{
+	background:#53a7ea;
+}
