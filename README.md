@@ -1,4 +1,4 @@
-# Pip.WebUI CSS Framework http://git.pipdevs.com/pip-webui/pip-webui-css
+# Pip.WebUI CSS Framework http://github.com/pip-webui/pip-webui-css
 
 CSS framework for develpment of responsive portable web application using Angular Material
 and WebUI development platform.
@@ -95,9 +95,9 @@ Change to your project's root directory.
 
 ```bash
 # To install only CSS styles without other components from pip-webui library.
-npm install git+ssh://git@git.pipdevs.com:pip-core/pip-webui-lib.git
-npm install git+ssh://git@git.pipdevs.com:pip-core/pip-webui-css.git
+npm install git+ssh://git@github.com:pip-core/pip-webui-lib.git
+npm install git+ssh://git@github.com:pip-core/pip-webui-css.git
 
 # To install the entire pip-webui library
-npm install git+ssh://git@git.pipdevs.com:pip-core/pip-webui.git
+npm install git+ssh://git@github.com:pip-core/pip-webui.git
 ```
