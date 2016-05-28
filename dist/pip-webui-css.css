@@ -1922,9 +1922,6 @@ tbody.collapse.in {
 }
 .pip-ref-title .pip-content .pip-subtitle {
   line-height: 1.2em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   margin: 0px 8px 0px 0px !important;
   font: normal 400 14px Roboto, 'Helvetica Neue', sans-serif;
   opacity: .54;
@@ -2280,8 +2277,22 @@ tbody.collapse.in {
   -ms-flex: 1;
   box-sizing: border-box;
 }
+.pip-drilldown-list .pip-drilldown-list-item .pip-subtitle {
+  font: normal 400 14px Roboto, 'Helvetica Neue', sans-serif;
+  opacity: 0.54;
+  text-align: justify;
+  text-align: start;
+  margin: 0px;
+}
 .pip-drilldown-list .pip-drilldown-list-item .pip-icon {
   margin-right: 26px;
+}
+.pip-drilldown-list .pip-drilldown-list-item.pip-drilldown-list-item-lg {
+  height: 64px;
+}
+.pip-drilldown-list .pip-drilldown-list-item.pip-drilldown-list-item-lg .pip-title {
+  margin-top: 1px !important;
+  margin-bottom: 4px !important;
 }
 .blue .pip-drilldown-list-item.pip-selected {
   border-left: 5px solid rgba(33, 150, 243, 0.54) !important;
@@ -2345,6 +2356,9 @@ md-dialog .pip-progress-top {
   margin-bottom: 19px;
   width: calc(100%) !important;
 }
+.pip-check-list {
+  overflow-x: hidden;
+}
 .pip-check-list .pip-check-list-item {
   min-height: 72px;
   padding-right: 0px;
@@ -2353,7 +2367,7 @@ md-dialog .pip-progress-top {
   padding-left: 0px;
   padding-right: 0px;
   display: block;
-  width: 100%;
+  width: calc(100% - 21px);
 }
 .pip-check-list .pip-check-list-item .md-list-item-inner .md-ripple-container {
   display: none;
@@ -2730,12 +2744,12 @@ table th[class*=col-] {
 .pip-type-chip {
   font: normal 500 14px Roboto, 'Helvetica Neue', sans-serif;
   display: inline-block;
-  padding: 0px 12px 0px 12px!important;
-  margin: 4px 4px 0px 0px!important;
-  overflow: hidden!important;
-  box-shadow: none!important;
-  line-height: 20px!important;
-  vertical-align: middle!important;
+  padding: 0px 12px 0px 12px !important;
+  margin: 4px 4px 0px 0px !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+  line-height: 20px !important;
+  vertical-align: middle !important;
   height: 32px !important;
   border-radius: 16px;
   background: #e0e0e0;
@@ -2752,7 +2766,8 @@ table th[class*=col-] {
 .pip-chip.pip-type-little-chip .pip-text,
 .pip-type-chip.pip-type-little-chip .pip-text {
   margin: 3px 0 0 0;
-  font-size: 10px;
+  font-size: 10px !important;
+  margin-right: 0px !important;
 }
 .pip-chip .pip-avatar,
 .pip-type-chip .pip-avatar,
@@ -2860,6 +2875,15 @@ md-list-item.pip-selectable.pip-simple-list-item {
   padding-left: 21px!important;
 }
 md-list-item.pip-selectable.pip-simple-list-item.selected {
+  padding-left: 16px!important;
+  background-color: rgba(158, 158, 158, 0.2);
+  border-left: 5px solid rgba(33, 150, 243, 0.5) !important;
+}
+md-list-item.pip-list-no-click.pip-selectable .md-no-style {
+  border-left: none!important;
+  padding-left: 21px!important;
+}
+md-list-item.pip-list-no-click.pip-selectable.selected .md-no-style {
   padding-left: 16px!important;
   background-color: rgba(158, 158, 158, 0.2);
   border-left: 5px solid rgba(33, 150, 243, 0.5) !important;
@@ -3491,6 +3515,9 @@ md-list md-list-item .md-button {
 }
 .pip-no-hint-input .md-errors-spacer {
   min-height: 0px;
+}
+.pip-autocomplete-text md-select-value {
+  height: 35px !important;
 }
 md-datepicker {
   background: transparent !important;
