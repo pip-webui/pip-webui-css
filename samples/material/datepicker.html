@@ -1,4 +1,9 @@
-<h2>Primary</h2>
+
+<p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+    Date Picker
+</p>
+
+<p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Primary</p>
 <md-datepicker ng-model="data.startDate"
                md-placeholder="startLabel"
                ng-change="onChangeStartDate()"
@@ -9,9 +14,9 @@
     You choose date: {{data.showDate}}
 </p>
 
-<h2>Disabled</h2>
+<p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Disabled</p>
 <md-datepicker ng-model="data.disabledDate"
-               md-placeholder="disabledLabel"
+               md-placeholder="Label"
                disabled="data.disabled"
                aria-label="DISABLED-DATE">
 </md-datepicker>

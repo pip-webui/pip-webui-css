@@ -1,11 +1,15 @@
 
+<p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+    Input
+</p>
+
 <div class="pip-blink-text">Some blink text</div>
 <md-input-container ng-class="{'pip-blink-input-container' : !inputBlink || inputBlink == ''}">
     <label>Input</label>
     <input ng-model="inputBlink">
 </md-input-container>
 
-<h2>Primary</h2>
+<p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Primary</p>
 <md-input-container>
     <label>Input</label>
     <input ng-model="input1">
@@ -19,7 +23,7 @@
     <textarea ng-model="input3" columns="1" md-maxlength="150"></textarea>
 </md-input-container>
 
-<h2>Error</h2>
+<p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Error</p>
 
 <form name="projectForm">
     <md-input-container>

@@ -1,10 +1,14 @@
+<p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+	Progress
+</p>
+
 <div class="demo-tab">
-	<h3>Determinate</h3>
+	<p class="text-subhead2 h48 m0 bm8 tm8">Determinate</p>
 	<md-button type="button" ng-disabled="inProgress" ng-click="start()">Start</md-button>
 	<md-button type="button" ng-disabled="!inProgress" ng-click="stop()">Stop</md-button>
 	<md-progress-linear md-mode="determinate" ng-value="progress"></md-progress-linear>
 	<md-progress-circular md-mode="determinate" ng-value="progress" class="tm8"></md-progress-circular>
-	<h3>Indeterminate</h3>
+	<p class="text-subhead2 h48 m0 bm8 tm8">Indeterminate</p>
 	<md-progress-linear md-mode="indeterminate"></md-progress-linear>
 	<md-progress-circular md-mode="indeterminate" class="tm8"></md-progress-circular>
 </div>

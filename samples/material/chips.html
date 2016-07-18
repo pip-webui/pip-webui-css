@@ -1,21 +1,8 @@
-<h2 class="tm24">Add chips sample here...</h2>
-
-<!--<div class="chipsdemoContactChips">-->
-    <!--<md-content class="md-padding autocomplete" layout="column">-->
-        <!--<md-contact-chips ng-model="contact"-->
-                          <!--md-contacts="getConnections($query)"-->
-                          <!--md-contact-name="to_party_name"-->
-                          <!--md-contact-image="image"-->
-                          <!--filter-selected="true"-->
-                          <!--md-require-match="true"-->
-                          <!--md-highlight-flags="i"-->
-                          <!--class="w-stretch">-->
-        <!--</md-contact-chips>-->
-    <!--</md-content>-->
-<!--</div>-->
+<p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+    Chips
+</p>
 
 <div  layout="column" class="chipsdemoContactChips" >
-
     <md-contact-chips ng-model="contacts" md-contacts="querySearch($query)"
                       md-contact-name="name"
                       md-contact-image="image"
@@ -25,6 +12,4 @@
                       filter-selected="filterSelected"
                       placeholder="To">
     </md-contact-chips>
-
-
 </div>
