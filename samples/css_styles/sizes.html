@@ -24,40 +24,14 @@
     }
 </style>
 <div style="overflow: auto">
-<!--
-    <h2>Face </h2>
 
-    <p> Диаметр 80рх</p>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12faf/1QP7QS-V41g.jpg" class="pip-face-gt">
-        <span>- pip-face-gt</span>
-    </div>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12fbb/vtt6-jENslw.jpg" class="pip-face-80">
-        <span>- pip-face-80</span>
-    </div>
+    <p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+        Sizes
+    </p>
 
-    <p> Диаметр 40рх</p>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12fc2/tMrhBvjfJgk.jpg" class="pip-face">
-        <span>- pip-face</span>
-    </div>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12fc9/nnrA-XvpPrY.jpg" class="pip-face-40">
-        <span>- pip-face-40</span>
-    </div>
-
-    <p> Диаметр 30рх</p>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12fd0/MqZoWzqCBc4.jpg" class="pip-face-sm">
-        <span>- pip-face-sm</span>
-    </div>
-    <div layout="row" layout-align="start center">
-        <img src="https://pp.vk.me/c543105/v543105114/12fde/d8jWhhGV4M4.jpg" class="pip-face-30">
-        <span>- pip-face-30</span>
-    </div>
--->
-    <h2>Width </h2>
+    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+        Width
+    </p>
 
     <div class="w">
 
@@ -66,20 +40,23 @@
             <span>- {{wValue}}</span>
         </div>
     </div>
-    <p> Так же есть классы:
+    <p> And classes:
         <span ng-repeat="wValue in  wValuesNotShow"> {{wValue}} </span></p>
 
-    <h2>Height </h2>
+    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+        Height
+    </p>
 
     <div class="h">
-
         <div ng-repeat="hValue in hValues" layout="row" layout-align="start center" class="bm8">
             <div class="{{hValue}}"></div>
             <span>- {{hValue}}</span>
         </div>
     </div>
 
-    <h2>Margins</h2>
+    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+        Margins
+    </p>
 
     <div class="m">
         <div ng-repeat="mValue in mValues" layout="row" layout-align="start center">
@@ -87,15 +64,15 @@
             <span>- {{mValue}}</span>
         </div>
     </div>
-    <p> Для получения отступа только слева добавьте к названию класса l. Например lm24 - отступ слева 24px.<br>
-        Для получения отступа только справа добавьте к названию класса r.<br>
-        Для получения отступа только вверху добавьте к названию класса t.<br>
-        Для получения отступа только внизу добавьте к названию класса b.<br>
+    <p> For left margin add to class name letter '<strong>l</strong>'. For example <strong>lm24</strong> - left margin 24px.<br>
+        For right margin add to class name letter '<strong>r</strong>'<br>
+        For top margin add to class name letter '<strong>t</strong>'<br>
+        For bottom margin add to class name letter '<strong>b</strong>'<br>
     </p>
 
-    <h2>Paddings</h2>
+    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Paddings</p>
 
-    <p>Для получения внутреннего отступа вместо буквы m используйте p. Например p24. Размеры отступов такие же как и
-        внешние.</p>
+    <p>For padding instead of letter 'm' add letter '<strong>p</strong>'.
+        For example <strong>p24</strong> - all sides padding 24px.</p>
 </div>
 

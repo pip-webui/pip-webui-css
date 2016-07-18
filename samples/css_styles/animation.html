@@ -1,20 +1,23 @@
 <div class="app-animation">
     
-    <h2>Animations</h2>
-    <div class="color">text</div>
+    <p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+        Animations
+    </p>
+
+    <div class="color">Hover Me!</div>
 
     <button ng-click="clicked = true">Fade</button>
     <div class="fade"
-         ng-class="{ in: clicked }">Fade</div>
+         ng-class="{ in: clicked }">Faded block</div>
 
-    <button ng-click="clicked1 = true">collapse</button>
+    <button ng-click="clicked1 = true">Collapse</button>
     <div class="collapse"
-         ng-class="{ in: clicked1 }">collapse</div>
+         ng-class="{ in: clicked1 }">Collapsed block</div>
 
     <div class="grow"  ng-click="clicked2 = true"
          ng-class="{ in: clicked2 }">Grow</div>
 
-    <button ng-click="clicked4 = true">rotate</button>
+    <button ng-click="clicked4 = true">Rotate</button>
     <div class="rotate"
-         ng-class="{ in: clicked4 }"> rotate</div>
+         ng-class="{ in: clicked4 }">Rotated block</div>
 </div>
