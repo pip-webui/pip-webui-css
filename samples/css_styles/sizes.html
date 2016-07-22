@@ -25,17 +25,17 @@
 </style>
 <div style="overflow: auto">
 
-    <p class="text-title h72 m0 bm8" layout="row" layout-align="start center">
+    <p class="text-title h72 m0 bm8 layout-row layout-align-start-center">
         Sizes
     </p>
 
-    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+    <p class="text-subhead2 h48 m0 bm8 tm8 layout-row layout-align-start-center">
         Width
     </p>
 
     <div class="w">
 
-        <div ng-repeat="wValue in wValues " layout="row" layout-align="start center" class="bm8">
+        <div ng-repeat="wValue in wValues " class="layout-row layout-align-start-center bm8">
             <div class="{{wValue}}"></div>
             <span>- {{wValue}}</span>
         </div>
@@ -43,23 +43,23 @@
     <p> And classes:
         <span ng-repeat="wValue in  wValuesNotShow"> {{wValue}} </span></p>
 
-    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+    <p class="text-subhead2 h48 m0 bm8 tm8 layout-row layout-align-start-center">
         Height
     </p>
 
     <div class="h">
-        <div ng-repeat="hValue in hValues" layout="row" layout-align="start center" class="bm8">
+        <div ng-repeat="hValue in hValues" class="layout-row layout-align-start-center bm8">
             <div class="{{hValue}}"></div>
             <span>- {{hValue}}</span>
         </div>
     </div>
 
-    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">
+    <p class="text-subhead2 h48 m0 bm8 tm8 layout-row layout-align-start-center">
         Margins
     </p>
 
     <div class="m">
-        <div ng-repeat="mValue in mValues" layout="row" layout-align="start center">
+        <div ng-repeat="mValue in mValues" class="layout-row layout-align-start-center">
             <div class="{{mValue}}"></div>
             <span>- {{mValue}}</span>
         </div>
@@ -70,7 +70,7 @@
         For bottom margin add to class name letter '<strong>b</strong>'<br>
     </p>
 
-    <p class="text-subhead2 h48 m0 bm8 tm8" layout="row" layout-align="start center">Paddings</p>
+    <p class="text-subhead2 h48 m0 bm8 tm8 layout-row layout-align-start-center">Paddings</p>
 
     <p>For padding instead of letter 'm' add letter '<strong>p</strong>'.
         For example <strong>p24</strong> - all sides padding 24px.</p>
