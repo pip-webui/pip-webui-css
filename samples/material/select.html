@@ -6,7 +6,7 @@
 <md-select ng-model="overall.selectResult" class="w-stretch tm0 bm16">
 
     <md-option ng-value="opt" ng-repeat="opt in overall.dataCollection">
-        <span flex>{{ opt.name }}</span>
+        <span class="flex">{{ opt.name }}</span>
     </md-option>
 </md-select>
 
@@ -16,7 +16,7 @@
     <label>Some label</label>
     <md-select ng-model="ctrl.userState">
         <md-option ng-value="opt" ng-repeat="opt in overall.dataCollection">
-            <span flex>{{ opt.name }}</span>
+            <span class="flex">{{ opt.name }}</span>
         </md-option>
     </md-select>
 </md-input-container>
