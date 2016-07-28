@@ -1,7 +1,7 @@
 module.exports = {
     module: {
         name: 'pipCss',
-        index: 'styles'
+        styles: 'styles'
     },
     build: {
         js: false,
@@ -9,10 +9,11 @@ module.exports = {
         html: false,
         css: true,
         lib: true,
-        images: true
+        images: true,
+        dist: false
     },
     file: {
-        import: [
+        lib: [
             '../pip-webui-test/dist/**/*',
             '../pip-webui-lib/dist/**/*',
             // '../pip-webui-css/dist/**/*',
@@ -32,5 +33,11 @@ module.exports = {
             // '../pip-webui-support/dist/**/*',
             // '../pip-webui-help/dist/**/*'
         ]
-    }
+    },
+    samples: {
+        port: 8020,
+    },
+    api: {
+        port: 8021,
+    },
 };
