@@ -14,7 +14,18 @@
 - [pip-ref-title component](#ref_title)
 - [pip-ref-expander component](#ref_expander)
 - [pip-ref-list component](#ref_list)
-- [pip-simple-list component](#simple_ist)
+- [pip-simple-list component](#simple_list)
+- [pip-details-title component](#details_title)
+- [pip-action-list component](#action_list)
+- [pip-drilldown-list component](#drilldown_list)
+- [pip-divider-\* component](#dividers)
+- [pip-check-list component](#check_list)
+- [pip-progress-top component](#progress_top)
+- [pip-table component](#table)
+- [pip-empty component](#empty)
+- [pip-chips-\* component](#chips)
+- [pip-filter-row component](#filter_row)
+- [pip-error-panel component](#error_panel)
 - [Questions and bugs](#issues)
 
 
@@ -216,49 +227,147 @@ Todo: Add screenshot for the simple-list
 Todo: Describe CSS classes from this component
 
 
-**Details title** is a standard header for detail panels with title and optional subtitle
+## <a name="details_title"></a> pip-details-title component
+
+**pip-details-title** is a standard header for detail panels with title and optional subtitle
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the details title
 
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="action_list"></a> pip-action-list component
+
 **Action list** is a set of big action buttons that are placed at the bottom of a page.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the action-list
 
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="drilldown_list"></a> pip-drilldown-list component
+
 **Drilldown list** is a list with clickable items, that lead to detail information.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshort for the drilldown-list
 
-**Dividers** to separate content in different places
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="dividers"></a> pip-divider-\* components
+
+**pip-divider**-\* used to separate content in different places
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the dividers
 
-**Check list** is a list with clickable items and a checkbox as the primary action
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="check_list"></a> pip-check-list component
+
+**pip-check-list** is a list with clickable items and a checkbox as the primary action
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with check-list
 
-**Progress on top** shows linear progress line at the top of a panel without "jumps" of internal content.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="progress_top"></a> pip-progress-top component
+
+**progress-top** shows linear progress line at the top of a panel without "jumps" of internal content.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with progress-on-top
 
-**Table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="table"></a> pip-table component
+
+**pip-table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with table
 
-**Empty state** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="empty"></a> pip-empty component
+
+**pip-empty** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with Empty state
 
-**Chips** shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="chips"></a> pip-chip-\* components
+
+**pip-chips**-\* shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with chips
 
-**Filter row** is used to style filters on the top of a page or panel.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="filter_row"></a> pip-filter-row components
+
+**pip-filter-row** is used to style filters on the top of a page or panel.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with filter-row
 
-**Error panel** shows an error embedded into a page.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="error_panel"></a> pip-error-panel components
+
+**pip-error-panel** shows an error embedded into a page.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot with error panel
+
+### CSS Classes
+Todo: Describe CSS classes from this component
 
 
 ## <a name="issues"></a> Questions and bugs
