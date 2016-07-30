@@ -9,6 +9,12 @@
 - [Colors styles and mixins](#colors)
 - [Animations, transitions and visual effects](#effects)
 - [Control properties styles and mixins](#controls)
+- [pip-ref-item component](#ref_item)
+- [pip-ref-toolbar component](#ref_toolbar)
+- [pip-ref-title component](#ref_title)
+- [pip-ref-expander component](#ref_expander)
+- [pip-ref-list component](#ref_list)
+- [pip-simple-list component](#simple_ist)
 - [Questions and bugs](#issues)
 
 
@@ -54,7 +60,7 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-## <a name="positions"></a> Positions
+## <a name="positions"></a> Positions styles and mixins
 
 CSS classes and mixins to position elements on web pages
 
@@ -67,7 +73,7 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-## <a name="sizes"></a>  Sizes
+## <a name="sizes"></a>  Sizes styles and mixins
 
 CSS classes and mixins to set width, height, paddings and margins for elements
 
@@ -80,7 +86,7 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-## <a name="flexbox"></a>  Flexbox
+## <a name="flexbox"></a>  Flexbox styles and mixins
 
 CSS classes and mixins to extend flexbox layouts implemented by Angular Material.
 
@@ -93,7 +99,7 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-## <a name="colors"></a>  Colors
+## <a name="colors"></a>  Colors styles and mixins
 
 CSS classes and mixins to set colors from predefined pallettes or special color set.
 
@@ -119,7 +125,7 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-## <a name="controls"></a> Control properties
+## <a name="controls"></a> Control properties styles and mixins
 
 CSS styles and mixins to change behavior of HTML controls. They allow to change scrolling, cursors and other control properties.
 
@@ -132,29 +138,83 @@ Todo: Describe here all CSS classes
 Todo: Describe here all CSS mixins
 
 
-**Reference item** represents a reference with title, details and avatar.
+## <a name="ref_item"></a> pip-ref-item component
+
+**pip-ref-item** represents a reference with title, details and avatar.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the ref-item
 
-**Reference toolbar** represents a toolbar with item reference and optional action buttons.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="ref_toolbar"></a> pip-ref-toolbar component
+
+**pip-ref-toolbar** represents a toolbar with item reference and optional action buttons.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the ref-toolbar
 
-**Reference title** is used as a header on the top of details page. It shows title, details and avatar.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="ref_title"></a> pip-ref-title component
+
+**pip-ref-title** is used as a header on the top of details page. It shows title, details and avatar.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the ref-title
 
-**Reference expander** is a clickable elemement that looks similar to **Reference item** but also allows to expand/collapse details.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="ref_expander"></a> pip-ref-expander component
+
+**pip-ref-expander** is a clickable elemement that looks similar to **pip-ref-item** but also allows to expand/collapse details.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the ref-expander
 
-**Reference list** is a list filled with **Reference items**.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="ref_list"></a> pip-ref-list component
+
+**pip-ref-list** is a list filled with **pip-ref-item**s.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the ref-list
 
-**Simple list** supports hover effects and select marks for the list items.
+### CSS Classes
+Todo: Describe CSS classes from this component
+
+
+## <a name="simple_list"></a> pip-simple-list component
+
+**pip-simple-list** supports hover effects and select marks for the list items.
+
+### Usage
+Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the simple-list
+
+### CSS Classes
+Todo: Describe CSS classes from this component
+
 
 **Details title** is a standard header for detail panels with title and optional subtitle
 
