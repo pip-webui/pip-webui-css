@@ -1,103 +1,70 @@
-# Pip.WebUI CSS Framework http://github.com/pip-webui/pip-webui-css
+# <img src="https://github.com/pip-webui/pip-webui/blob/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> Extensible settings page
 
-CSS framework for develpment of responsive portable web application using Angular Material
-and WebUI development platform.
+![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-The framework includes reusable primitives for:
+Angular-Material library this framework is based on provides a pretty complete set of CSS styles that include typography and responsiveness. But, real applications would need more. In Pip.WebUI.CSS we collected generic CSS styles that we reused across many web applications. Also, this module contains so called CSS components. In comparison to Angular directives they are extremely light-weight and efficient, because they require only CSS styles over basic HTML structure.
 
-* Typography
-* Colors
-* Sizes, margins and paddings
-* Flexbox
-* Positioning
-* Visual effects
-* CSS components
-* LESS variables and mixins
+### Typography
 
-In the version 1.0.0 the framework was harmonized with Angular Material, removed conflicting fonts and styles,
-used common font styles and sizes, removed duplications. 
+CSS classes and mixins to set fonts, sizes, styles and other visual text attributes. 
 
-Another big issue was to create CSS components that are more resilient to changes in HTML structure.
-To achieve that we stopped relying on specific HTML tags and their location and instead added logical sub-elements.
+Todo: Add screenshot with typography styles here
 
-Quick Links:
+### Positions
 
-* [Documentation](#documentation)
-* [Contributing](#contributing)
-* [Building](#building)
-* [Installing](#installing)
+CSS classes and mixins to position elements on web pages
 
-## <a name="documentation"></a> Online Documentation
+Todo: Add screenshot with position styles here
 
-- Visit [documentation](doc/index.md) page
-- Or build the project, launch and open samples; see [Building](#building) for details
-   
-## <a name="contributing"></a> Contributing
+### Sizes
 
-Developers interested in contributing should read the following guidelines:
+CSS classes and mixins to set width, height, paddings and margins for elements
 
-- [Issue Guidelines](docs/guides/CONTRIBUTING.md#submit)
-- [Contributing Guidelines](docs/guides/CONTRIBUTING.md)
-- [Coding Guidelines](docs/guides/CODING.md)
-- [ChangeLog](CHANGELOG.md)
+Todo: Add screenshot with sizes styles here
 
-> Please do **not** ask general questions in an issue. Issues are only to report bugs, request
-  enhancements, or request new features. For general questions and discussions, use the
-  [Pip Devs Forum](https://groups.google.com/forum/#!forum/pipdevs).
+### Flexbox
 
-It is important to note that for each release, the [ChangeLog](CHANGELOG.md) is a resource that will
-itemize all:
+CSS classes and mixins to extend flexbox layouts implemented by Angular Material.
 
-- Bug Fixes
-- New Features
-- Breaking Changes
-   
-## <a name="building"></a> Building
+Todo: Add screenshot with flexbox styles here
 
-Developers can easily build the project using NPM and gulp.
+### Colors
 
-* [Builds - Under the Hood](docs/guides/BUILD.md)
+CSS classes and mixins to set colors from predefined pallettes or special color set.
 
-First install or update your local project's **npm** tools:
+Todo: Add screenshot with color styles here
 
-```bash
-# First install all the NPM tools:
-npm install
+### Animations, transformations and other visual effects
 
-# Or update
-npm update
-```
+CSS classes and mixins to specify animations and transformations. It also has CSS classes for dividers and opacity.
 
-Then run the **gulp** tasks:
+Todo: Add screenshot with effects styles here
 
-```bash
-# To clean '/build' and '/dist' directories
-gulp clean
+### Control properties
 
-# To build distribution files in the `/dist` directory
-gulp build
+CSS styles and mixins to change behavior of HTML controls. They allow to change scrolling, cursors and other control properties.
 
-# To launch samples (build will open samples/index page in web browser)
-gulp launch
-```
+Todo: Add screenshot with controls styles here
 
-For more details on how the build process works and additional commands (available for testing and
-debugging) developers should read the [Build Instructions](docs/guides/BUILD.md).
+### CSS components
 
-## <a name="installing"></a> Installing Build (Distribution Files)
+TBD
 
-#### NPM
+## Learn more about the module
 
-CSS styles have dependency on Angular Material styles that are included 
-into pip-webui-lib library. Also styles are included into pip-webui library.
+- [User's guide](doc/UsersGuide.md)
+- [Online samples](http://webui.pipdevs.com/pip-webui-css/index.html)
+- [Developer's guide](doc/DevelopersGuide.md)
+- [Changelog](CHANGELOG.md)
+- [Pip.WebUI project website](http://www.pipwebui.org)
+- [Pip.WebUI project wiki](https://github.com/pip-webui/pip-webui/wiki)
+- [Pip.WebUI discussion forum](https://groups.google.com/forum/#!forum/pip-webui)
+- [Pip.WebUI team blog](https://pip-webui.blogspot.com/)
 
-Change to your project's root directory.
+## <a name="dependencies"></a>Module dependencies
 
-```bash
-# To install only CSS styles without other components from pip-webui library.
-npm install git+ssh://git@github.com:pip-core/pip-webui-lib.git
-npm install git+ssh://git@github.com:pip-core/pip-webui-css.git
+* [pip-webui-lib](https://github.com/pip-webui/pip-webui-lib): angular material CSS styles
 
-# To install the entire pip-webui library
-npm install git+ssh://git@github.com:pip-core/pip-webui.git
-```
+## <a name="license"></a>License
+
+This module is released under [MIT license](License) and totally free for commercial and non-commercial use.
