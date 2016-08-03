@@ -209,8 +209,27 @@ CSS classes and mixins to set width, height, paddings and margins for elements
 * **max-h100** - add style max-height: 100px
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
+* **w(@size)** - add width styles
+* **min-w(@size)** - add min-width styles
+* **max-w(@size)** - add max-width styles
+* **h(@size)** - add height styles
+* **min-h(@size)** - add min-height styles
+* **max-h(@size)** - add max-height styles
 
+* **m(@size)**  - add margin styles
+* **tm(@size)** - add margin-top styles
+* **bm(@size)** - add margin-bottom styles
+* **lm(@size)** - add margin-left styles
+* **rm(@size)** - add margin-right styles
+* **p(@size)**  - add padding styles
+* **tp(@size)** - add padding-top styles
+* **bp(@size)** - add padding-bottom styles
+* **lp(@size)** - add padding-left styles
+* **rp(@size)** - add padding-right styles
+
+* **size(@width; @height)** - add height and width styles
+* **square(@size)** - add height and width styles when height = width
+* **circle(@size)** - add height and width styles when height = width and add border-radius: 50%
 
 ## <a name="flexbox"></a>  Flexbox styles and mixins
 
