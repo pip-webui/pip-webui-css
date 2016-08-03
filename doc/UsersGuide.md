@@ -542,7 +542,8 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
-<md-button class="pip-drilldown-list-item pip-drilldown-list-item-lg pip-selected">
+<div class="pip-drilldown-list">
+    <md-button class="pip-drilldown-list-item pip-drilldown-list-item-lg pip-selected">
         <div class="pip-content">
             <md-icon md-svg-icon="icons:document" class="pip-icon"></md-icon>
             <div class="pip-subcontent flex">
@@ -553,6 +554,7 @@ Todo: Describe CSS classes from this component
             <md-icon md-svg-icon="icons:chevron-right"></md-icon>
         </div>
     </md-button>
+</div>
 ```
 
 <img src="images/img-drilldown-list.png"/>
@@ -580,8 +582,9 @@ Todo: Describe CSS classes from this component
 <img src="images/img-dividers.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-dividers** - standard divider with top and bottom margins 8рх
+* **pip-tile-divider** - divider for tiles with top and bottom margins 8рх
+* **pip-list-divider** -  divider for list with top and bottom margins 8рх
 
 ## <a name="check_list"></a> pip-check-list component
 
@@ -627,10 +630,6 @@ Todo: Describe CSS classes from this component
 </md-card>
 ```
 <img src="images/img-progress-top.png"/>
-
-### CSS Classes
-Todo: Describe CSS classes from this component
-
 
 ## <a name="table"></a> pip-table component
 
@@ -697,8 +696,8 @@ Todo: Describe CSS classes from this component
 <img src="images/img-table.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **table** - class for table styles
+* **table-hover** - class for hover effects in table
 
 ## <a name="empty"></a> pip-empty component
 
@@ -730,8 +729,10 @@ Todo: Describe CSS classes from this component
 <img src="images/img-empty.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-empty** - general class for pip-empty component
+* **pip-text** - class for text 
+* **pip-pic** - class for picture
+* **pip-actions** - class for div with buttons
 
 ## <a name="chips"></a> pip-chip-\* components
 
