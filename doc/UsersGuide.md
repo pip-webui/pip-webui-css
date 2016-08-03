@@ -113,15 +113,15 @@ CSS classes and mixins to position elements on web pages
 * **pull-left** - add style float: left
 
 ### LESS Mixins
-* **center-block()** -
+* **center-block()** - center-align a block level element
 * **content-columns(@column-count; @column-gap: @grid-gutter-width)** -
-* **position-relative()** -
-* **position-fixed()** -
-* **position-absolute(@top, @left, @right, @bottom)** -
-* **position-fill()** - 
-* **position-top()** -
-* **position-bottom()** -
-
+* **position-relative()** - add style position: relative 
+* **position-fixed()** - add style position: fixed
+* **position-absolute(@top, @left, @right, @bottom)** - add style position: absolute 
+* **position-fill** - add style position: relative
+* **position-top** - add style position: absolute with top: 0 
+* **position-bottom** - add style position: absolute with bottom: 0 
+* **position-right** - add style position: absolute with right: 0 
 
 ## <a name="sizes"></a>  Sizes styles and mixins
 
@@ -130,7 +130,83 @@ CSS classes and mixins to set width, height, paddings and margins for elements
 <img src="images/img-size.png"/>
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **w0** - add style width: 0
+* **w2** - add style width: 2px
+* **w4** - add style width: 4px
+* **w8** - add style width: 8px
+* **w16** - add style width: 16px
+* **w24** - add style width: 24px
+* **w38** - add style width: 38px
+* **w40** - add style width: 40px
+* **w48** - add style width: 48px
+* **w56** - add style width: 56px
+* **w64** - add style width: 64px
+* **w72** - add style width: 72px
+* **w88** - add style width: 88px
+* **w100** - add style width: 100px
+* **w150-flex** - add style width: 150px 
+* **w178-flex** - add style  width: 178px
+* **w264-flex** - add style  width: 264px
+* **w440-flex** - add style  width: 440px
+* **w600-flex** - add style  width: 600px
+* **w900-flex** - add style  width: 900px
+* **w50-stretch** - add style width: 50%
+* **w-stretch** - add style width: 100%
+* **min-w24** - add style min-width: 24px
+* **min-w48** - add style min-width: 48px
+* **min-w56** - add style min-width: 56px
+* **min-w64** - add style min-width: 64px
+* **min-w72** - add style min-width: 72px
+* **min-w33-stretch** - add style min-width: 33%
+* **min-w50-stretch** - add style min-width: 50%
+* **min-w100** - add style min-width: 100px
+* **max-w24** - add style max-width: 24px
+* **max-w48** - add style max-width: 48px
+* **max-w56** - add style max-width: 56px
+* **max-w64** - add style max-width: 64px
+* **max-w72** - add style max-width: 72px
+* **max-w33-stretch**- add style max-width: 33%
+* **max-w50-stretch**- add style max-width: 50%
+* **max-w100** - add style max-width: 100px
+
+* **h0** - add style height: 0
+* **h2** - add style height: 2px
+* **h4** - add style height: 4px
+* **h8** - add style height: 8px
+* **h16** - add style height: 16px
+* **h24** - add style height: 24px
+* **h38** - add style height: 38px
+* **h40** - add style height: 40px
+* **h48** - add style height: 48px
+* **h56** - add style height: 56px
+* **h64** - add style height: 64px
+* **h72** - add style height: 72px
+* **h88** - add style height: 88px
+* **h100** - add style height: 100px
+* **h150-flex** - add style height: 150px 
+* **h178-flex** - add style  height: 178px
+* **h264-flex** - add style  height: 264px
+* **h440-flex** - add style  height: 440px
+* **h600-flex** - add style  height: 600px
+* **h900-flex** - add style  height: 900px
+* **h50-stretch** - add style height: 50%
+* **h-stretch** - add style height: 100%
+* **min-h24** - add style min-height: 24px
+* **min-h48** - add style min-height: 48px
+* **min-h56** - add style min-height: 56px
+* **min-h64** - add style min-height: 64px
+* **min-h72** - add style min-height: 72px
+* **min-h33-stretch** - add style min-height: 33%
+* **min-h50-stretch** - add style min-height: 50%
+* **min-h100** - add style min-height: 100px
+* **max-h24** - add style max-height: 24px
+* **max-h48** - add style max-height: 48px
+* **max-h56** - add style max-height: 56px
+* **max-h64** - add style max-height: 64px
+* **max-h72** - add style max-height: 72px
+* **max-h33-stretch**- add style max-height: 33%
+* **max-h50-stretch**- add style max-height: 50%
+* **max-h100** - add style max-height: 100px
 
 ### LESS Mixins
 Todo: Describe here all CSS mixins
