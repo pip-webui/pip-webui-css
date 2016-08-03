@@ -480,11 +480,11 @@ Todo: Describe CSS classes from this component
 </md-list>
 ```
 
-Todo: Add screenshot for the simple-list
+<img src="images/img-simple-list.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-simple-list-item** - class for simple item
+* **pip-title** - class for title
 
 ## <a name="details_title"></a> pip-details-title component
 
@@ -501,8 +501,8 @@ Todo: Describe CSS classes from this component
 <img src="images/img-details-title.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
 
 ## <a name="action_list"></a> pip-action-list component
 
@@ -533,8 +533,10 @@ Todo: Describe CSS classes from this component
 <img src="images/img-action-list.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-action-list** - general class for action list
+* **pip-action-list-item** - class for item in action list
+* **pip-pic** - class for icon in item
+* **pip-title** - class for text
 
 ## <a name="drilldown_list"></a> pip-drilldown-list component
 
