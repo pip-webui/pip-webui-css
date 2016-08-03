@@ -65,11 +65,31 @@ CSS classes and mixins to set fonts, sizes, styles and other visual text attribu
 <img src="images/img-fonts.png"/>
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **text-hide** - hide text, add styles font: ~"0/0";
+* **text-overflow** - overflow hidden
+* **vertical-top** - add styles vertical-align: top;
+* **vertical-middle** - add styles vertical-align: middle;
+* **vertical-bottom** - add styles vertical-align: bottom;
+* **text-left** - add styles text-align: left;
+* **text-right** - add styles text-align: right;
+* **text-center** - add styles text-align: center;
+* **text-display4** - add style font: normal 300 112px Roboto, 'Helvetica Neue', sans-serif;
+* **text-display3** - add style font: normal 400 56px Roboto, 'Helvetica Neue', sans-serif;
+* **text-display2** - add style font: normal 400 45px Roboto, 'Helvetica Neue', sans-serif;
+* **text-display1** - add style font: normal 400 34px Roboto, 'Helvetica Neue', sans-serif;
+* **text-headline** - add style font: normal 400 24px Roboto, 'Helvetica Neue', sans-serif;
+* **text-title** - add style font: normal 500 20px Roboto, 'Helvetica Neue', sans-serif;
+* **text-subhead1** - add style font: normal 400 16px Roboto, 'Helvetica Neue', sans-serif;
+* **text-subhead2** - add style font: normal 500 16px Roboto, 'Helvetica Neue', sans-serif;
+* **text-body1** - add style font: normal 400 14px Roboto, 'Helvetica Neue', sans-serif;
+* **text-body2** - add style font: normal 500 14px Roboto, 'Helvetica Neue', sans-serif;
+* **text-caption**  - add style font: normal 400 12px Roboto, 'Helvetica Neue', sans-serif;
+* **text-button** - add style font: normal 500 14px Roboto, 'Helvetica Neue', sans-serif;
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
-
+* **text-hide()** - text hidden 
+* **text-overflow()** - overflow text
+* **hyphens(@mode: auto)** - optional hyphenation
 
 ## <a name="positions"></a> Positions styles and mixins
 
@@ -78,10 +98,29 @@ CSS classes and mixins to position elements on web pages
 <img src="images/img-alignment.png"/>
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **hidden** - hide from screenreaders and browsers
+* **invisible** - add style visibility: hidden
+* **display** - add position display 
+* **position-relative** - add style position: relative 
+* **position-fixed** - add style position: fixed
+* **position-fill** - add style position: relative
+* **position-top** - add style position: absolute with top: 0 
+* **position-bottom** - add style position: absolute with bottom: 0 
+* **position-right** - add style position: absolute with right: 0  
+* **clearfix** - add style clearfix
+* **center-block** - center-align a block level element
+* **pull-right** - add style float: right
+* **pull-left** - add style float: left
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
+* **center-block()** -
+* **content-columns(@column-count; @column-gap: @grid-gutter-width)** -
+* **position-relative()** -
+* **position-fixed()** -
+* **position-absolute(@top, @left, @right, @bottom)** -
+* **position-fill()** - 
+* **position-top()** -
+* **position-bottom()** -
 
 
 ## <a name="sizes"></a>  Sizes styles and mixins
