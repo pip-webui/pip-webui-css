@@ -790,7 +790,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 ```html
  <div class="pip-page-errors">
-        <span class="pip-error-text">Text - Roboto Regular 14px Error Color.Background - rgba (0, 0, 0, 0.08) </span>
+        <span class="pip-error-text">Roboto Regular 14px Error Color.Background - rgba (0, 0, 0, 0.08) </span>
         <a class="pip-error-details">
             <md-icon md-svg-icon="icons:warn-circle"></md-icon>
             <span class="flex"> DETAILS  </span>
