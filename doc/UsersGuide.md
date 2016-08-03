@@ -766,8 +766,8 @@ Todo: Describe CSS classes from this component
 <img src="images/img-tags.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-type-chip** - class for chips of type
+* **pip-chip** - general class for chips
 
 ## <a name="filter_row"></a> pip-filter-row components
 
@@ -794,8 +794,7 @@ Todo: Describe CSS classes from this component
 <img src="images/img-filter-row.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-filter-text** - text in filter row
 
 ## <a name="error_panel"></a> pip-error-panel components
 
