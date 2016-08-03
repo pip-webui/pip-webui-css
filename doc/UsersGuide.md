@@ -425,7 +425,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshort for the drilldown-list
+<img src="images/img-drilldown-list.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -438,7 +438,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the dividers
+<img src="images/img-dividers.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -451,11 +451,10 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with check-list
+<img src="images/img-checklist.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
-
 
 ## <a name="progress_top"></a> pip-progress-top component
 
@@ -464,7 +463,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with progress-on-top
+<img src="images/img-progress-top.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -477,7 +476,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with table
+<img src="images/img-table.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -490,7 +489,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with Empty state
+<img src="images/img-empty.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -503,7 +502,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with chips
+<img src="images/img-tags.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -516,7 +515,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with filter-row
+<img src="images/img-filter-row.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -529,7 +528,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot with error panel
+<img src="images/img-page-errors.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
