@@ -319,7 +319,8 @@ Todo: Describe here all CSS mixins
 **pip-ref-item** represents a reference with title, details and avatar.
 
 ### Usage
-Todo: Add HTML snippet to demonstrate use of the component
+```html
+```
 
 <img src="images/img-ref-item.png"/>
 
@@ -332,6 +333,8 @@ Todo: Describe CSS classes from this component
 **pip-ref-toolbar** represents a toolbar with item reference and optional action buttons.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-toolbar.png"/>
@@ -345,6 +348,8 @@ Todo: Describe CSS classes from this component
 **pip-ref-title** is used as a header on the top of details page. It shows title, details and avatar.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-title.png"/>
@@ -358,6 +363,8 @@ Todo: Describe CSS classes from this component
 **pip-ref-expander** is a clickable elemement that looks similar to **pip-ref-item** but also allows to expand/collapse details.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-expander.png"/>
@@ -365,12 +372,13 @@ Todo: Add HTML snippet to demonstrate use of the component
 ### CSS Classes
 Todo: Describe CSS classes from this component
 
-
 ## <a name="ref_list"></a> pip-ref-list component
 
 **pip-ref-list** is a list filled with **pip-ref-item**s.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-list.png"/>
@@ -384,6 +392,8 @@ Todo: Describe CSS classes from this component
 **pip-simple-list** supports hover effects and select marks for the list items.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the simple-list
@@ -397,6 +407,8 @@ Todo: Describe CSS classes from this component
 **pip-details-title** is a standard header for detail panels with title and optional subtitle
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-details-title.png"/>
@@ -410,6 +422,8 @@ Todo: Describe CSS classes from this component
 **Action list** is a set of big action buttons that are placed at the bottom of a page.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-action-list.png"/>
@@ -423,6 +437,8 @@ Todo: Describe CSS classes from this component
 **Drilldown list** is a list with clickable items, that lead to detail information.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-drilldown-list.png"/>
@@ -436,6 +452,8 @@ Todo: Describe CSS classes from this component
 **pip-divider**-\* used to separate content in different places
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-dividers.png"/>
@@ -449,6 +467,8 @@ Todo: Describe CSS classes from this component
 **pip-check-list** is a list with clickable items and a checkbox as the primary action
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-checklist.png"/>
@@ -461,6 +481,8 @@ Todo: Describe CSS classes from this component
 **progress-top** shows linear progress line at the top of a panel without "jumps" of internal content.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-progress-top.png"/>
@@ -474,6 +496,8 @@ Todo: Describe CSS classes from this component
 **pip-table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-table.png"/>
@@ -487,6 +511,8 @@ Todo: Describe CSS classes from this component
 **pip-empty** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-empty.png"/>
@@ -500,6 +526,8 @@ Todo: Describe CSS classes from this component
 **pip-chips**-\* shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-tags.png"/>
@@ -513,6 +541,8 @@ Todo: Describe CSS classes from this component
 **pip-filter-row** is used to style filters on the top of a page or panel.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-filter-row.png"/>
@@ -526,6 +556,8 @@ Todo: Describe CSS classes from this component
 **pip-error-panel** shows an error embedded into a page.
 
 ### Usage
+```html
+```
 Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-page-errors.png"/>
