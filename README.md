@@ -8,19 +8,19 @@ Angular-Material library this framework is based on provides a pretty complete s
 
 CSS classes and mixins to set fonts, sizes, styles and other visual text attributes. 
 
-Todo: Add screenshot with typography styles here
+<img src="images/img-fonts.png"/>
 
 ### Positions
 
 CSS classes and mixins to position elements on web pages
 
-Todo: Add screenshot with position styles here
+<img src="images/img-alignment.png"/>
 
 ### Sizes
 
 CSS classes and mixins to set width, height, paddings and margins for elements
 
-Todo: Add screenshot with sizes styles here
+<img src="images/img-size.png"/>
 
 ### Flexbox
 
@@ -50,67 +50,67 @@ Todo: Add screenshot with controls styles here
 
 **Reference item** represents a reference with title, details and avatar.
 
-Todo: Add screenshot for the ref-item
+<img src="images/img-ref-item.png"/>
 
 **Reference toolbar** represents a toolbar with item reference and optional action buttons.
 
-Todo: Add screenshot for the ref-toolbar
+<img src="images/img-ref-toolbar.png"/>
 
 **Reference title** is used as a header on the top of details page. It shows title, details and avatar.
 
-Todo: Add screenshot for the ref-title
+<img src="images/img-ref-title.png"/>
 
 **Reference expander** is a clickable elemement that looks similar to **Reference item** but also allows to expand/collapse details.
 
-Todo: Add screenshot for the ref-expander
+<img src="images/img-ref-expander.png"/>
 
 **Reference list** is a list filled with **Reference items**.
 
-Todo: Add screenshot for the ref-list
+<img src="images/img-ref-list.png"/>
 
 **Simple list** supports hover effects and select marks for the list items.
 
-Todo: Add screenshot for the simple-list
+<img src="images/img-simple-list.png"/>
 
 **Details title** is a standard header for detail panels with title and optional subtitle
 
-Todo: Add screenshot for the details title
+<img src="images/img-details-title.png"/>
 
 **Action list** is a set of big action buttons that are placed at the bottom of a page.
 
-Todo: Add screenshot for the action-list
+<img src="images/img-action-list.png"/>
 
 **Drilldown list** is a list with clickable items, that lead to detail information.
 
-Todo: Add screenshort for the drilldown-list
+<img src="images/img-drilldown-list.png"/>
 
 **Dividers** to separate content in different places
 
-Todo: Add screenshot for the dividers
+<img src="images/img-dividers.png"/>
 
 **Check list** is a list with clickable items and a checkbox as the primary action
 
-Todo: Add screenshot with check-list
+<img src="images/img-checklist.png"/>
 
 **Progress on top** shows linear progress line at the top of a panel without "jumps" of internal content.
 
-Todo: Add screenshot with progress-on-top
+<img src="images/img-progress-top.png"/>
 
 **Table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
 
-Todo: Add screenshot with table
+<img src="images/img-table.png"/>
 
 **Empty state** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
 
-Todo: Add screenshot with Empty state
+<img src="images/img-empty.png"/>
 
 **Chips** shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
 
-Todo: Add screenshot with chips
+<img src="images/img-tags.png"/>
 
 **Filter row** is used to style filters on the top of a page or panel.
 
-Todo: Add screenshot with filter-row
+<img src="images/img-filter-row.png"/>
 
 **Error panel** shows an error embedded into a page.
 
