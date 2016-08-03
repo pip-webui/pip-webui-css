@@ -320,6 +320,16 @@ Todo: Describe here all CSS mixins
 
 ### Usage
 ```html
+<div class="pip-ref-item">
+    <img class="pip-pic" src="images/ES_Goals.svg">
+    <div class="pip-content">
+        <p class="pip-title">Pip.Life - Small scale beta</p>
+        <p class="pip-subtitle">
+            <md-icon md-svg-icon="icons:help" class="pip-icon"></md-icon>
+            goal
+        </p>
+    </div>
+</div>
 ```
 
 <img src="images/img-ref-item.png"/>
@@ -334,8 +344,21 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<md-toolbar class="pip-ref-toolbar md-hue-1 bm24">
+    <img class="pip-pic" src="images/ES_Goals.svg">
+
+    <div class="pip-content">
+        <p class="pip-title">Efficiently target long-term high-impact resources after distinctive e-services.</p>
+
+        <p class="pip-subtitle">Goal</p>
+
+        <div class="pip-action">
+            <md-button class="md-raised md-primary md-hue-1" ng-click="">Action 1</md-button>
+            <md-button class="md-raised md-primary md-hue-1" ng-click="">Action 2</md-button>
+        </div>
+    </div>
+</md-toolbar>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-toolbar.png"/>
 
@@ -349,8 +372,17 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div class="pip-ref-title layout-row">
+	<img class="pip-pic" src="images/ES_Timeline.svg">
+
+	<div class="flex layout-column layout-align-center-start pip-content">
+		<p class="pip-title">Title of vision</p>
+		<p class="pip-subtitle">Subtitle of vision</p>
+		<md-progress-linear class="tm8"></md-progress-linear>
+	</div>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
+
 
 <img src="images/img-ref-title.png"/>
 
@@ -364,8 +396,26 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div class="pip-ref-expander layout-row layout-align-start-center">
+    <md-button class="flex">
+        <div class="layout-row layout-align-start-center">
+            <img src="images/ES_Goals.svg"
+                 class="pip-pic-sm" ng-click="showAlert($event)">
+            <div class="pip-content flex">
+                <p class="pip-title">
+                    <md-icon md-svg-icon="icons:forward-all"></md-icon>
+                    {{item.name}}
+                </p>
+                <p class="pip-subtitle">
+                    <md-icon md-svg-icon="icons:world"></md-icon>
+                    <span>{{item.status1}}</span>
+                </p>
+            </div>
+            <md-icon md-svg-icon="icons:triangle-down" class="pip-chevron"></md-icon>
+        </div>
+    </md-button>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-expander.png"/>
 
@@ -378,8 +428,38 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+
+<md-list class="pip-menu pip-ref-list">
+
+    <md-list-item class="pip-ref-list-item lp16 layout-row layout-align-start-start" md-ink-ripple>
+
+        <img src="images/ES_Timeline.svg" class="pip-pic">
+
+        <div class="pip-content">
+            <div class="layout-row layout-align-space-between-start">
+                <div class="flex">
+                    <p class="pip-title">{{item.title}} </p>
+
+                    <span class="pip-subtitle">
+                        {{item.time}}
+                    </span>
+                </div>
+
+                <md-chip class="pip-type-chip pip-type-chip-right md-chip">
+                    <div class="pip-text">INFO</div>
+                </md-chip>
+            </div>
+
+            <p class="pip-text-bold" ng-if="item.parent">{{item.parent}}</p>
+
+            <p class="pip-text" ng-if="item.parent">{{item.text}}</p>
+
+            <p class="pip-text-lg" ng-if="!item.parent">{{item.text}}</p>
+
+        </div>
+    </md-list-item>
+</md-list>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-ref-list.png"/>
 
@@ -393,8 +473,12 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<md-list class="pip-menu pip-simple-list">
+    <md-list-item class="pip-simple-list-item pip-selectable" md-ink-ripple ng-repeat="listItem in list">
+        <p class="pip-title">{{listItem}}</p>
+    </md-list-item>
+</md-list>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 Todo: Add screenshot for the simple-list
 
@@ -408,8 +492,11 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div class="pip-details-title">
+    <p class="pip-title">Title (font: normal 500 20px Roboto;)</p>
+    <p class="pip-subtitle">Subtitle (font: normal 400 14px Roboto;)</p>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-details-title.png"/>
 
@@ -423,8 +510,25 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+
+<div class="pip-action-list">
+
+    <md-button class="pip-action-list-item">
+        <md-icon class="pip-pic" md-svg-icon="icons:reply"></md-icon>
+        <div class="pip-title">Reply</div>
+    </md-button>
+
+    <md-button class="pip-action-list-item">
+        <md-icon class="pip-pic" md-svg-icon="icons:forward"></md-icon>
+        <div class="pip-title">Forward</div>
+    </md-button>
+
+    <md-button class="pip-action-list-item">
+        <md-icon class="pip-pic" md-svg-icon="icons:cross"></md-icon>
+        <div class="pip-title">Delete</div>
+    </md-button>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-action-list.png"/>
 
@@ -438,8 +542,18 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<md-button class="pip-drilldown-list-item pip-drilldown-list-item-lg pip-selected">
+        <div class="pip-content">
+            <md-icon md-svg-icon="icons:document" class="pip-icon"></md-icon>
+            <div class="pip-subcontent flex">
+                <p class="pip-title">Share</p>
+                <p class="pip-subtitle flex">A: Pip.devs</p>
+            </div>
+            <p >1/2</p>
+            <md-icon md-svg-icon="icons:chevron-right"></md-icon>
+        </div>
+    </md-button>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-drilldown-list.png"/>
 
@@ -453,8 +567,15 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<md-card>
+    <div class="p24-flex">
+        Some text on card
+        <div class="pip-divider"></div>
+        Some text on card
+    </div>
+
+</md-card>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-dividers.png"/>
 
@@ -468,8 +589,22 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<md-list class="pip-menu pip-check-list">
+
+    <md-list-item class="pip-check-list-item" md-ink-ripple ng-click="aaa()" ng-repeat="item in items">
+        <div class="pip-item-content layout-row layout-align-start-start">
+            <md-checkbox class="pip-checkbox"></md-checkbox>
+
+            <div class="pip-content divider-bottom">
+                <p class="pip-title">{{item.title}} </p>
+                <p class="pip-text-bold">{{item.parent}}</p>
+                <p class="pip-text">{{item.text}}</p>
+            </div>
+        </div>
+
+    </md-list-item>
+</md-list>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-checklist.png"/>
 
@@ -482,9 +617,15 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
-```
-Todo: Add HTML snippet to demonstrate use of the component
+<md-card class="lm0">
+    <div class="p24">
+        <md-progress-linear class="pip-progress-top"> </md-progress-linear>
 
+        Some text on card
+    </div>
+
+</md-card>
+```
 <img src="images/img-progress-top.png"/>
 
 ### CSS Classes
@@ -497,8 +638,61 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<table class="table table-striped table-hover ">
+	<thead>
+	<tr>
+		<th>#</th>
+		<th>Column heading</th>
+		<th>Column heading</th>
+		<th>Column heading</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td>1</td>
+		<td>Column content</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Column content</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr class="info">
+		<td>3</td>
+		<td>Row with class info</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr class="success">
+		<td>4</td>
+		<td>Row with class success</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr class="danger">
+		<td>5</td>
+		<td>Row with class danger</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr class="warning">
+		<td>6</td>
+		<td>Row with class warning</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	<tr class="active">
+		<td>7</td>
+		<td>Row with class active</td>
+		<td>Column content</td>
+		<td>Column content</td>
+	</tr>
+	</tbody>
+</table>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-table.png"/>
 
@@ -512,8 +706,26 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div class="pip-empty" >
+        <div style="background-image: url('images/ES_Timeline.svg');" class="pip-pic" ></div>
+
+        <div class="pip-text">
+            Here you can plan the main events of the day and coordinate with your partners
+        </div>
+        <div class="pip-actions">
+            <md-button class="md-accent">
+                ADD EVENT
+            </md-button>
+            <md-button class="md-accent">
+                ADD EVENT FROM CURRENT WEEK
+            </md-button>
+            <md-button class="md-accent">
+                WORK ON GOALS
+            </md-button>
+        </div>
+
+    </div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-empty.png"/>
 
@@ -527,8 +739,15 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div>
+    <div class="pip-type-chip pip-type-chip-left">
+        <span>Type</span>
+    </div>
+    <div class="pip-chip" ng-repeat="tag in tags">
+        <span>{{::tag}}</span>
+    </div>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-tags.png"/>
 
@@ -542,8 +761,21 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+<div class="pip-filter-row divider-bottom layout-row layout-align-start-center">
+    <div class="pip-filter-text">
+       Priority
+    </div>
+
+    <md-input-container class="md-block">
+        <md-select ng-disable="{{disableControls}}" class="flex"
+                   aria-label="Status" ng-model="topicModel1">
+            <md-option ng-value="opt" ng-repeat="opt in topic1">
+                {{::opt}}
+            </md-option>
+        </md-select>
+    </md-input-container>
+</div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-filter-row.png"/>
 
@@ -557,8 +789,14 @@ Todo: Describe CSS classes from this component
 
 ### Usage
 ```html
+ <div class="pip-page-errors">
+        <span class="pip-error-text">Text - Roboto Regular 14px Error Color.Background - rgba (0, 0, 0, 0.08) </span>
+        <a class="pip-error-details">
+            <md-icon md-svg-icon="icons:warn-circle"></md-icon>
+            <span class="flex"> DETAILS  </span>
+        </a>
+    </div>
 ```
-Todo: Add HTML snippet to demonstrate use of the component
 
 <img src="images/img-page-errors.png"/>
 
