@@ -62,7 +62,7 @@ Include **pip-webui** files into your web application.
 
 CSS classes and mixins to set fonts, sizes, styles and other visual text attributes. 
 
-Todo: Add screenshot with typography styles here
+<img src="images/img-fonts.png"/>
 
 ### CSS Classes
 Todo: Describe here all CSS classes
@@ -75,7 +75,7 @@ Todo: Describe here all CSS mixins
 
 CSS classes and mixins to position elements on web pages
 
-Todo: Add screenshot with position styles here
+<img src="images/img-alignment.png"/>
 
 ### CSS Classes
 Todo: Describe here all CSS classes
@@ -88,7 +88,7 @@ Todo: Describe here all CSS mixins
 
 CSS classes and mixins to set width, height, paddings and margins for elements
 
-Todo: Add screenshot with sizes styles here
+<img src="images/img-size.png"/>
 
 ### CSS Classes
 Todo: Describe here all CSS classes
@@ -104,11 +104,42 @@ CSS classes and mixins to extend flexbox layouts implemented by Angular Material
 Todo: Add screenshot with flexbox styles here
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+
+* **flex** - add display flex
+* **flex-direction-row** - add row direction
+* **flex-direction-column** - add column direction
+* **flex-flow-row-wrap** - add display flex + row direction + flex-wrap: wrap
+* **flex-fixed** - is equal to flex-element with parameters 0, 0, auto
+* **flex-var** - is equal to flex-element with parameters 1, 1, auto
+* **flex-grow** - is equal to flex-element with parameters 1, 0, auto
+* **flex-shrink** - is equal to flex-element with parameters 0, 1, auto
+* **flex-vertical-center** - add  align-items:center
+* **flex-vertical-start** - add align-items:start
+* **flex-horizontal-start** - add justify-content with parameters - start, flex-start
+* **flex-horizontal-center** - add justify-content with parameters - center center
+* **flex-horizontal-end** - justify - content with parameters - end, flex-end
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
 
+* **flex()** - add display flex
+* **flex-direction(@direction)** - add direction
+* **flex-direction-row()** - add row direction
+* **flex-direction-column()** - add column direction
+* **flex-flow(@direction, @wrap)** - add flex direction + flex-wrap
+* **flex-flow-row-wrap()** - add display flex + row direction + flex-wrap: wrap;
+* **flex-element(@grow, @shrink, @initialSize: auto)** - add flex with parameters
+* **flex-fixed()** - is equal to flex-element with parameters 0, 0, auto
+* **flex-var()** - is equal to flex-element with parameters 1, 1, auto
+* **flex-grow()** - is equal to flex-element with parameters 1, 0, auto
+* **flex-shrink()** - is equal to flex-element with parameters 0, 1, auto
+* **flex-order(@index)** -  add order index
+* **flex-vertical-content(@value)** - add  align-items
+* **flex-vertical-center()** - add  align-items:center
+* **flex-vertical-start()** - add align-items:start
+* **flex-justify-content(@value, @oldValue)** - add justify-content with oldValue for webkit and  value for other browsers
+* **flex-horizontal-start()** - add justify-content with parameters - start, flex-start
+* **flex-horizontal-center()** - add justify-content with parameters - center center
+* **flex-horizontal-end()** - justify - content with parameters - end, flex-end
 
 ## <a name="colors"></a>  Colors styles and mixins
 
@@ -156,7 +187,7 @@ Todo: Describe here all CSS mixins
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the ref-item
+<img src="images/img-ref-item.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -169,7 +200,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the ref-toolbar
+<img src="images/img-ref-toolbar.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -182,7 +213,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the ref-title
+<img src="images/img-ref-title.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -195,7 +226,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the ref-expander
+<img src="images/img-ref-expander.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -208,7 +239,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the ref-list
+<img src="images/img-ref-list.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -234,7 +265,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the details title
+<img src="images/img-details-title.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
@@ -247,7 +278,7 @@ Todo: Describe CSS classes from this component
 ### Usage
 Todo: Add HTML snippet to demonstrate use of the component
 
-Todo: Add screenshot for the action-list
+<img src="images/img-action-list.png"/>
 
 ### CSS Classes
 Todo: Describe CSS classes from this component
