@@ -363,8 +363,12 @@ Todo: Describe CSS classes from this component
 <img src="images/img-ref-toolbar.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-pic-sm** - class for small picture
+* **pip-pic** - class for pictures
+* **pip-content** - class for general div 
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
+* **pip-actions** - class for div with buttons
 
 ## <a name="ref_title"></a> pip-ref-title component
 
@@ -387,8 +391,11 @@ Todo: Describe CSS classes from this component
 <img src="images/img-ref-title.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-pic-sm** - class for small picture
+* **pip-pic** - class for pictures
+* **pip-content** - class for general div 
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
 
 ## <a name="ref_expander"></a> pip-ref-expander component
 
@@ -420,7 +427,11 @@ Todo: Describe CSS classes from this component
 <img src="images/img-ref-expander.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
+* **pip-pic-sm** - class for small picture
+* **pip-pic** - class for pictures
+* **pip-content** - class for general div 
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
 
 ## <a name="ref_list"></a> pip-ref-list component
 
