@@ -341,8 +341,15 @@ CSS classes and mixins to specify animations and transformations. It also has CS
 Todo: Describe here all CSS classes
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
-
+* **animation (@name, @duration: 300ms, @delay: 0, @ease: ease)** - add animation style
+* **animation-name(@name)** - set animation name
+* **animation-duration(@duration)** - set animation duration
+* **animation-timing-function(@timing-function)** - add style for timing animation
+* **animation-delay(@delay)** - set delay of animation 
+* **animation-direction(@direction)** - set direction of animation
+* **animation-fill-mode(@fill-mode)** - set fill mode
+* **backface-visibility(@visibility)** - prevent browsers from flickering when using CSS 3D transforms. Default value is `visible`, but can be changed to `hidden`
+* **pip-blink()** - add class for blinking text
 
 ## <a name="controls"></a> Control properties styles and mixins
 
