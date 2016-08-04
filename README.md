@@ -32,13 +32,14 @@ Todo: Add screenshot with flexbox styles here
 
 CSS classes and mixins to set colors from predefined pallettes or special color set.
 
-Todo: Add screenshot with color styles here
+<img src="images/img-colors.png"/>
 
 ### Animations, transformations and other visual effects
 
 CSS classes and mixins to specify animations and transformations. It also has CSS classes for dividers and opacity.
 
-Todo: Add screenshot with effects styles here
+
+<img src="images/img-animations.png"/>
 
 ### Control properties
 
@@ -114,7 +115,7 @@ Todo: Add screenshot with controls styles here
 
 **Error panel** shows an error embedded into a page.
 
-Todo: Add screenshot with error panel
+<img src="images/img-page-errors.png"/>
 
 ## Learn more about the module
 
