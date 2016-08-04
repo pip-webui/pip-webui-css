@@ -280,11 +280,41 @@ CSS classes and mixins to set colors from predefined pallettes or special color 
 Todo: Add screenshot with color styles here
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **blue** - start blue theme
+* **pink** - pink theme
+* **orange** - orange theme
+* **amber** - amber theme
+* **green** - green theme
+* **navy** - navy theme
+* **grey** - grey theme
+
+* **bg-purple** - purple background
+* **border-purple** - purple border
+* **fg-purple** - purple text
+* **bg-light-green** - light-green background
+* **border-light-green**
+* **fg-light-green**
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
-
+* **generate-theme(@name, @palette)** - mixin for generate theme with @name. This mixin add class:
+   - **color-primary** - color text (extract(@palette, 1))
+   - **color-primary-bg** - color  background (extract(@palette, 1))
+   - **color-accent** - color text (extract(@palette, 2))
+   - **color-accent-bg** -  color  background (extract(@palette, 2))
+   - **color-accent-hue-bg** -  color  background (extract(@palette, 12))
+   - **color-hue** -  color text (extract(@palette, 3))
+   - **color-hue-bg** -  color  background (extract(@palette, 3))
+   - **color-primary-text** -  color for primaty text (extract(@palette, 4))
+   - **color-secondary-text** - color for text  with opacity (extract(@palette, 5))
+   - **color-divider** - color for all dividers (extract(@palette, 6))
+   - **color-badge** - color for badge text (extract(@palette, 7))
+   - **color-badge-bg** - color for badge background (extract(@palette, 7))
+   - **color-error** - color for error hints  (extract(@palette, 8))
+   - **color-toast** - background for toast  message (extract(@palette, 9))
+   - **color-content-bg** - color background for content (extract(@palette, 10))
+   - **color-window-bg** - color background for window (extract(@palette, 11))
+   - **color-disabled** - text color for disabled text
+   - **color-disabled-bg** - color background for disabling div
 
 ## <a name="effects"></a>  Animations, transformations and other visual effects
 
