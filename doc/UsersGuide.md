@@ -277,7 +277,7 @@ CSS classes and mixins to extend flexbox layouts implemented by Angular Material
 
 CSS classes and mixins to set colors from predefined pallettes or special color set.
 
-Todo: Add screenshot with color styles here
+<img src="images/img-colors.png"/>
 
 ### CSS Classes
 * **blue** - start blue theme
