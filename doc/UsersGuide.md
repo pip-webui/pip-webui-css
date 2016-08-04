@@ -308,11 +308,23 @@ CSS styles and mixins to change behavior of HTML controls. They allow to change 
 Todo: Add screenshot with controls styles here
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **scroll** - add styles overflow: auto
+* **no-scroll** - add style overflow: hidden
+* **scroll-x** - add style for scrolling on the horizontal
+* **scroll-y**  - add style for scrolling on the vertical 
+
+* **pointer** - change for pointer cursor
+* **cursor-default** - change for default cursor
+* **cursor-auto** - change for cursor: auto
+* **cursor-move** - change for cursor: move
 
 ### LESS Mixins
-Todo: Describe here all CSS mixins
-
+* **placeholder(@color: @input-color-placeholder)** - add color for placeholder text
+* **user-select(@select)** - for selecting text on the page
+* **tab-focus()** - webKit-style focus
+* **scroll()** - add scrolling styles for both axes
+* **scroll-x()** - add style for scrolling on the horizontal
+* **scroll-y()**  - add style for scrolling on the vertical 
 
 ## <a name="ref_item"></a> pip-ref-item component
 
@@ -814,8 +826,8 @@ Todo: Describe CSS classes from this component
 <img src="images/img-page-errors.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
-
+* **pip-error-text** - text error
+* **pip-error-details** - class for div with details information
 
 ## <a name="issues"></a> Questions and bugs
 
