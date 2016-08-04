@@ -490,7 +490,13 @@ Todo: Add screenshot with controls styles here
 <img src="images/img-ref-list.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
+* **pip-pic** - class for pictures
+* **pip-content** - class for general div 
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
+* **pip-bold-text** - class for little bold text 
+* **pip-text-lg** - class for max 2 count line 
+* **pip-text** - class for normal 16px Roboto text, max 1 line text
 
 
 ## <a name="simple_list"></a> pip-simple-list component
