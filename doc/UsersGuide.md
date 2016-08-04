@@ -347,7 +347,10 @@ Todo: Add screenshot with controls styles here
 <img src="images/img-ref-item.png"/>
 
 ### CSS Classes
-Todo: Describe CSS classes from this component
+* **pip-pic** - class for pictures
+* **pip-content** - class for general div 
+* **pip-title** - class for title text
+* **pip-subtitle** - class for subtitle text
 
 
 ## <a name="ref_toolbar"></a> pip-ref-toolbar component
