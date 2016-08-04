@@ -235,8 +235,6 @@ CSS classes and mixins to set width, height, paddings and margins for elements
 
 CSS classes and mixins to extend flexbox layouts implemented by Angular Material.
 
-Todo: Add screenshot with flexbox styles here
-
 ### CSS Classes
 
 * **flex** - add display flex
