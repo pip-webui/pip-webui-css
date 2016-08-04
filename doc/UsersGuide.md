@@ -335,7 +335,7 @@ CSS classes and mixins to set colors from predefined pallettes or special color 
 
 CSS classes and mixins to specify animations and transformations. It also has CSS classes for dividers and opacity.
 
-Todo: Add screenshot with effects styles here
+<img src="images/img-animations.png"/>
 
 ### CSS Classes
 Todo: Describe here all CSS classes
@@ -347,8 +347,6 @@ Todo: Describe here all CSS mixins
 ## <a name="controls"></a> Control properties styles and mixins
 
 CSS styles and mixins to change behavior of HTML controls. They allow to change scrolling, cursors and other control properties.
-
-Todo: Add screenshot with controls styles here
 
 ### CSS Classes
 * **scroll** - add styles overflow: auto
