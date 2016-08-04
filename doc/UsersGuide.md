@@ -338,7 +338,12 @@ CSS classes and mixins to specify animations and transformations. It also has CS
 <img src="images/img-animations.png"/>
 
 ### CSS Classes
-Todo: Describe here all CSS classes
+* **fade** - fade animation
+* **collapse** - collapse animation
+* **grow** - grow animation
+* **shrink** - shrink animation
+* **rotate** - rotate animation
+* **pip-blink-text** - blinking text
 
 ### LESS Mixins
 * **animation (@name, @duration: 300ms, @delay: 0, @ease: ease)** - add animation style
