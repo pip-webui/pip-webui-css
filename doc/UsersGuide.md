@@ -292,8 +292,23 @@ Todo: Add screenshot with color styles here
 * **border-purple** - purple border
 * **fg-purple** - purple text
 * **bg-light-green** - light-green background
-* **border-light-green**
-* **fg-light-green**
+* **border-light-green** - light-green border
+* **fg-light-green** - light-green text
+* **bg-dark-red** - dark-red background
+* **border-dark-red** - dark-red  border
+* **fg-dark-red** - dark-red text
+* **bg-pink** - pink background
+* **border-pink** - pink border
+* **fg-pink** - pink text
+* **bg-cyan** - cyan background
+* **border-cyan** - cyan border
+* **fg-cyan** - cyan text
+* **bg-deep-orange** - deep-orange background
+* **border-deep-orange** - deep-orange border
+* **fg-deep-orange** - deep-orange text
+* **bg-teal** - teal background
+* **border-teal** - teal border
+* **fg-teal** - teal text
 
 ### LESS Mixins
 * **generate-theme(@name, @palette)** - mixin for generate theme with @name. This mixin add class:
