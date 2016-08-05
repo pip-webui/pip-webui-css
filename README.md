@@ -43,7 +43,7 @@ CSS classes and mixins to set colors from predefined pallettes or special color 
 CSS classes and mixins to specify animations and transformations. It also has CSS classes for dividers and opacity.
 
 <a href="doc/images/img-animation.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="doc/images/img-animation.png"/>
+    <img src="doc/images/img-animations.png"/>
 </a>
 
 ### Control properties
@@ -117,7 +117,7 @@ CSS styles and mixins to change behavior of HTML controls. They allow to change 
 **Check list** is a list with clickable items and a checkbox as the primary action
 
 <a href="doc/images/img-check-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="doc/images/img-check-list.png"/>
+    <img src="doc/images/img-checklist.png"/>
 </a>
 
 **Progress on top** shows linear progress line at the top of a panel without "jumps" of internal content.
