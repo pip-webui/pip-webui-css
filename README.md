@@ -7,115 +7,154 @@ Angular-Material library this framework is based on provides a pretty complete s
 ### Typography
 
 CSS classes and mixins to set fonts, sizes, styles and other visual text attributes. 
-
-<img src="images/img-fonts.png"/>
+<a href="doc/images/img-fonts.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-fonts.png"/>
+</a>
 
 ### Positions
 
 CSS classes and mixins to position elements on web pages
-
-<img src="images/img-alignment.png"/>
+<a href="doc/images/img-alignment.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-alignment.png"/>
+</a>
 
 ### Sizes
 
 CSS classes and mixins to set width, height, paddings and margins for elements
 
-<img src="images/img-size.png"/>
+<a href="doc/images/img-size.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-size.png"/>
+</a>
 
 ### Flexbox
 
 CSS classes and mixins to extend flexbox layouts implemented by Angular Material.
 
-Todo: Add screenshot with flexbox styles here
-
 ### Colors
 
 CSS classes and mixins to set colors from predefined pallettes or special color set.
 
-<img src="images/img-colors.png"/>
+<a href="doc/images/img-colors.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-colors.png"/>
+</a>
 
 ### Animations, transformations and other visual effects
 
 CSS classes and mixins to specify animations and transformations. It also has CSS classes for dividers and opacity.
 
-
-<img src="images/img-animations.png"/>
+<a href="doc/images/img-animation.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-animation.png"/>
+</a>
 
 ### Control properties
 
 CSS styles and mixins to change behavior of HTML controls. They allow to change scrolling, cursors and other control properties.
 
-Todo: Add screenshot with controls styles here
-
 ### CSS components
 
 **Reference item** represents a reference with title, details and avatar.
 
-<img src="images/img-ref-item.png"/>
+<a href="doc/images/img-ref-item.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-ref-item.png"/>
+</a>
 
 **Reference toolbar** represents a toolbar with item reference and optional action buttons.
 
-<img src="images/img-ref-toolbar.png"/>
+<a href="doc/images/img-ref-toolbar.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-ref-toolbar.png"/>
+</a>
 
 **Reference title** is used as a header on the top of details page. It shows title, details and avatar.
 
-<img src="images/img-ref-title.png"/>
+<a href="doc/images/img-ref-title.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-ref-title.png"/>
+</a>
 
 **Reference expander** is a clickable elemement that looks similar to **Reference item** but also allows to expand/collapse details.
 
-<img src="images/img-ref-expander.png"/>
+<a href="doc/images/img-ref-expander.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-ref-expander.png"/>
+</a>
+
 
 **Reference list** is a list filled with **Reference items**.
 
-<img src="images/img-ref-list.png"/>
+<a href="doc/images/img-ref-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-ref-list.png"/>
+</a>
 
 **Simple list** supports hover effects and select marks for the list items.
 
-<img src="images/img-simple-list.png"/>
+<a href="doc/images/img-simple-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-simple-list.png"/>
+</a>
 
 **Details title** is a standard header for detail panels with title and optional subtitle
 
-<img src="images/img-details-title.png"/>
+<a href="doc/images/img-details-title.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-details-title.png"/>
+</a>
 
 **Action list** is a set of big action buttons that are placed at the bottom of a page.
 
-<img src="images/img-action-list.png"/>
+<a href="doc/images/img-action-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-action-list.png"/>
+</a>
+
 
 **Drilldown list** is a list with clickable items, that lead to detail information.
 
-<img src="images/img-drilldown-list.png"/>
+<a href="doc/images/img-drilldown-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-drilldown-list.png"/>
+</a>
 
 **Dividers** to separate content in different places
 
-<img src="images/img-dividers.png"/>
+<a href="doc/images/img-dividers.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-dividers.png"/>
+</a>
 
 **Check list** is a list with clickable items and a checkbox as the primary action
 
-<img src="images/img-checklist.png"/>
+<a href="doc/images/img-check-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-check-list.png"/>
+</a>
 
 **Progress on top** shows linear progress line at the top of a panel without "jumps" of internal content.
 
-<img src="images/img-progress-top.png"/>
+<a href="doc/images/img-progress-top.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-progress-top.png"/>
+</a>
 
 **Table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
 
-<img src="images/img-table.png"/>
+<a href="doc/images/img-table.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-table.png"/>
+</a>
 
 **Empty state** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
 
-<img src="images/img-empty.png"/>
+<a href="doc/images/img-empty.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-empty.png"/>
+</a>
 
 **Chips** shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
 
-<img src="images/img-tags.png"/>
+<a href="doc/images/img-tags.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-tags.png"/>
+</a>
 
 **Filter row** is used to style filters on the top of a page or panel.
 
-<img src="images/img-filter-row.png"/>
+<a href="doc/images/img-filter-row.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-filter-row.png"/>
+</a>
 
 **Error panel** shows an error embedded into a page.
 
-<img src="images/img-page-errors.png"/>
+<a href="doc/images/img-page-errors.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
+    <img src="doc/images/img-page-errors.png"/>
+</a>
 
 ## Learn more about the module
 
