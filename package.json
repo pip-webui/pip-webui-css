@@ -1,6 +1,6 @@
 {
     "name": "pip-webui-css",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "Digital Living Software Corp. <www.digitallivingsoftware.com>",
     "description": "CSS styles and components for Pip.WebUI",
     "contributors": [
