@@ -7,6 +7,12 @@
     max-width: 100%;
     width: 100%;
 
+     & > div {
+      & > button {
+        display: none;
+      }
+    }
+
     & > button.md-ink-ripple {
       padding: 0;
       .md-ripple-container {
@@ -124,4 +130,13 @@
 
     }
   }
+}
+
+.pip-ref-item::before {
+    .md-list-item-inner {
+      content: none;
+    }
+    .md-list-item-inner::before {
+      content: none;
+    }    
 }

@@ -1785,6 +1785,12 @@ tbody.collapse.in {
   vertical-align: middle;
   margin-top: -1px;
 }
+.pip-ref-item::before .md-list-item-inner {
+  content: none;
+}
+.pip-ref-item::before .md-list-item-inner::before {
+  content: none;
+}
 .pip-ref-toolbar {
   display: -webkit-box;
   display: -moz-box;
@@ -2006,6 +2012,9 @@ tbody.collapse.in {
   max-width: 100%;
   width: 100%;
 }
+.pip-ref-list .pip-ref-list-item > div > button {
+  display: none;
+}
 .pip-ref-list .pip-ref-list-item > button.md-ink-ripple {
   padding: 0;
 }
@@ -2124,6 +2133,12 @@ tbody.collapse.in {
   height: 15px;
   vertical-align: middle;
   margin-top: -1px;
+}
+.pip-ref-item::before .md-list-item-inner {
+  content: none;
+}
+.pip-ref-item::before .md-list-item-inner::before {
+  content: none;
 }
 .pip-details-title .pip-title {
   min-height: 24px;
@@ -2390,9 +2405,6 @@ md-dialog .pip-progress-top {
   width: 0;
   height: 0;
 }
-.pip-check-list .pip-check-list-item .md-list-item-inner::before {
-  content: none;
-}
 .pip-check-list .pip-check-list-item .pip-checkbox,
 .pip-check-list .pip-check-list-item .pip-icon {
   -webkit-box-flex: 0 0 auto;
@@ -2466,8 +2478,9 @@ md-dialog .pip-progress-top {
   padding-top: 8px;
   width: 100%;
 }
-.pip-check-list .pip-check-list-item::before {
-  content: none;
+md-list-item.pip-check-list-item .md-list-item-inner::before,
+md-list-item.pip-check-list-item::before {
+  content: none!important;
 }
 .pip-divider-right {
   border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
