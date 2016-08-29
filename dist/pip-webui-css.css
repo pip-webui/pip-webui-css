@@ -2390,6 +2390,9 @@ md-dialog .pip-progress-top {
   width: 0;
   height: 0;
 }
+.pip-check-list .pip-check-list-item .md-list-item-inner::before {
+  content: none;
+}
 .pip-check-list .pip-check-list-item .pip-checkbox,
 .pip-check-list .pip-check-list-item .pip-icon {
   -webkit-box-flex: 0 0 auto;
@@ -2462,6 +2465,9 @@ md-dialog .pip-progress-top {
 .pip-check-list .pip-check-list-item .pip-item-content {
   padding-top: 8px;
   width: 100%;
+}
+.pip-check-list .pip-check-list-item::before {
+  content: none;
 }
 .pip-divider-right {
   border-right: 1px solid rgba(0, 0, 0, 0.12) !important;
