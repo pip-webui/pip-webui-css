@@ -1,5 +1,10 @@
 # Pip.WebUI.CSS Changelog
 
+## <a name="1.0.6"></a> 1.0.6 (2016-09-05)
+
+### Features
+* **images**: Add new icons to icons.svg
+
 ## <a name="1.0.0"></a> 1.0.0 (2016-07-30)
 
 Initial release of Pip.WebUI.CSS with web components, color themes and CSS styles to complement Angular Material styles
