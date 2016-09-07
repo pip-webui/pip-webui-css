@@ -2012,9 +2012,6 @@ tbody.collapse.in {
   max-width: 100%;
   width: 100%;
 }
-.pip-ref-list .pip-ref-list-item > div > button {
-  display: none;
-}
 .pip-ref-list .pip-ref-list-item > button.md-ink-ripple {
   padding: 0;
 }
