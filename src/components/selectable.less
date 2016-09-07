@@ -45,7 +45,6 @@ md-list-item {
 
     }
   }
-
 }
 
 md-list-item.pip-list-no-click {
@@ -86,6 +85,16 @@ md-list-item.pip-list-no-click {
         & > .md-no-style {
           background-color: rgba(158, 158, 158, .2);
           border-left: 5px solid @color !important; //#2196f3;
+        }
+      }
+    }
+
+    &.pip-ref-list-item {
+      &.selected {
+        & > .md-no-style {
+          & > button {
+            border-left: none!important;
+          }
         }
       }
     }
