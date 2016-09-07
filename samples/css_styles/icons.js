@@ -56,7 +56,9 @@
                 'guide', 'ruler', 'lamp', 'monitor', 'connections', 'printer', 'card', 'bug', 'bars',
                 'contacts', 'paid', 'admin',
                 'feedback', 'plus-square',
-                'pie-circle', 'preview', 'info-circle-outline', 'info-phone'
+                'pie-circle', 'preview', 'info-circle-outline', 'info-phone',
+                'label', 'collapse', 'expand', 'delete', 'plus-circle-outline', 'minus-circle-outline'
+
 
             ];
         }
