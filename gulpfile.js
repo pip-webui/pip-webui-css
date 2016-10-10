@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var pkg = require('./package');
     
 // Add standard tasks    
-require('pip-webui-tasks').all();
+require('pip-webui-tasks').all(gulp);
 
 gulp.task('build-less', function() {
     return gulp.src([
