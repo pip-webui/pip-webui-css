@@ -1,8 +1,8 @@
 {
     "name": "pip-webui-css",
-    "version": "1.0.5",
+    "version": "1.5.0",
     "author": "Digital Living Software Corp. <www.digitallivingsoftware.com>",
-    "description": "CSS styles and components for Pip.WebUI",
+    "description": "CSS framework for Pip.WebUI",
     "contributors": [
         {
             "name": "Sergey Seroukhov",
@@ -17,7 +17,6 @@
         "pip",
         "webui",
         "framework",
-        "controls",
         "css",
         "styles"
     ],

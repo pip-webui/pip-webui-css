@@ -22,7 +22,7 @@ npm install mocha -g
 3\. Clone the project from github repository.
 
 ```bash
-git clone https://github.com/pip-webui/pip-webui-css.git
+git clone https://github.com/pip-webui/pip-webui-csss.git
 ```
 
 4\. Install project dependencies.

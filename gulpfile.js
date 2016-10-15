@@ -9,6 +9,9 @@ require('pip-webui-tasks').all(gulp);
 gulp.task('build-less', function() {
     return gulp.src([
             './src/colors/colors_var.less',
+            './src/colors/colors_mixins.less',
+            './src/colors/colors_bootbarn.less',
+            './src/colors/colors_default.less',
             './src/flexbox/flexbox_mixins.less',
             './src/positions/positions_var.less',
             './src/positions/positions_mixins.less',

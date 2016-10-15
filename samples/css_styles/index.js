@@ -8,7 +8,6 @@
         { title: 'Animation', state: 'animation', url: '/animation', controller: 'AnimationController', templateUrl: 'animation.html'},
         { title: 'Alignment', state: 'alignment', url: '/alignment', controller: 'AlignmentController', templateUrl: 'alignment.html' },
         { title: 'Colors', state: 'colors', url: '/colors', controller: 'ColorsController', templateUrl: 'colors.html' },
-        { title: 'Themes', state: 'themes', url: '/themes', controller: 'ThemesController', templateUrl: 'themes.html' },
         { title: 'Sizes', state: 'sizes', url: '/sizes', controller: 'SizesController', templateUrl: 'sizes.html' },
         { title: 'Icons', state: 'icons', url: '/icons', controller: 'IconsController', templateUrl: 'icons.html' },
         { title: 'Responsive', state: 'responsive', url: '/responsive', controller: 'ResponsiveController', templateUrl: 'responsive.html' }
@@ -19,7 +18,7 @@
             // 3rd Party Modules
             'ui.router', 'ui.utils', 'ngResource', 'ngAria', 'ngCookies', 'ngSanitize', 'ngMessages',
             'ngMaterial', 'LocalStorageModule', 'ngAnimate', 
-            'appCssStyles.Fonts', 'appCssStyles.Alignment', 'appCssStyles.Colors',  'appCssStyles.Themes', 'appCssStyles.Sizes',
+            'appCssStyles.Fonts', 'appCssStyles.Alignment', 'appCssStyles.Colors', 'appCssStyles.Sizes',
             'appCssStyles.Icons', 'appCssStyles.Responsive', 'appCssStyles.Animation'
         ]
     );

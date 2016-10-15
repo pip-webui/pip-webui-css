@@ -1,8 +1,8 @@
-# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> CSS styles and components
-
+# <img src="https://github.com/pip-webui/pip-webui/raw/master/doc/Logo.png" alt="Pip.WebUI Logo" style="max-width:30%"> <br/> CSS styles
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Angular-Material library this framework is based on provides a pretty complete set of CSS styles that include typography and responsiveness. But, real applications would need more. In Pip.WebUI.CSS we collected generic CSS styles that we reused across many web applications. Also, this module contains so called CSS components. In comparison to Angular directives they are extremely light-weight and efficient, because they require only CSS styles over basic HTML structure.
+Angular-Material library this framework is based on provides a pretty complete set of CSS styles that include typography and responsiveness. But, real applications would need more. 
+In Pip.WebUI.CSS we collected generic CSS styles that we reused across many web applications. 
 
 ### Typography
 
@@ -49,112 +49,6 @@ CSS classes and mixins to specify animations and transformations. It also has CS
 ### Control properties
 
 CSS styles and mixins to change behavior of HTML controls. They allow to change scrolling, cursors and other control properties.
-
-### CSS components
-
-**Reference item** represents a reference with title, details and avatar.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-item.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-item.png"/>
-</a>
-
-**Reference toolbar** represents a toolbar with item reference and optional action buttons.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-toolbar.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-toolbar.png"/>
-</a>
-
-**Reference title** is used as a header on the top of details page. It shows title, details and avatar.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-title.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-title.png"/>
-</a>
-
-**Reference expander** is a clickable elemement that looks similar to **Reference item** but also allows to expand/collapse details.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-expander.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-expander.png"/>
-</a>
-
-
-**Reference list** is a list filled with **Reference items**.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-ref-list.png"/>
-</a>
-
-**Simple list** supports hover effects and select marks for the list items.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-simple-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-simple-list.png"/>
-</a>
-
-**Details title** is a standard header for detail panels with title and optional subtitle
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-details-title.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-details-title.png"/>
-</a>
-
-**Action list** is a set of big action buttons that are placed at the bottom of a page.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-action-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-action-list.png"/>
-</a>
-
-
-**Drilldown list** is a list with clickable items, that lead to detail information.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-drilldown-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-drilldown-list.png"/>
-</a>
-
-**Dividers** to separate content in different places
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-dividers.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-dividers.png"/>
-</a>
-
-**Check list** is a list with clickable items and a checkbox as the primary action
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-check-list.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-checklist.png"/>
-</a>
-
-**Progress on top** shows linear progress line at the top of a panel without "jumps" of internal content.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-progress-top.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-progress-top.png"/>
-</a>
-
-**Table** is a temporary table component based on Bootstrap code. It will be removed when Angular-Material team release a normal table
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-table.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-table.png"/>
-</a>
-
-**Empty state** component shows a placeholder for pages without data. It gives an explanation and provides one or few actions to get started.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-empty.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-empty.png"/>
-</a>
-
-**Chips** shows a list with read-only chips. It also has special styles for chips that stick to left or right edge.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-tags.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-tags.png"/>
-</a>
-
-**Filter row** is used to style filters on the top of a page or panel.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-filter-row.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-filter-row.png"/>
-</a>
-
-**Error panel** shows an error embedded into a page.
-
-<a href="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-page-errors.png" style="border: 3px ridge #c8d2df; margin: auto; display: inline-block">
-    <img src="https://github.com/pip-webui/pip-webui-css/raw/master/doc/images/img-page-errors.png"/>
-</a>
 
 ## Learn more about the module
 

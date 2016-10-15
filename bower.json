@@ -1,7 +1,7 @@
 {
     "name": "pip-webui-css",
-    "version": "1.0.5",
-    "description": "CSS styles and components for Pip.WebUI",
+    "version": "1.5.0",
+    "description": "CSS styles for Pip.WebUI",
     "main": "",
     "authors": [
         {
@@ -22,7 +22,7 @@
         "css",
         "styles"
     ],
-    "homepage": "https://github.com/pip-webui/pip-webui-css",
+    "homepage": "https://github.com/pip-webui/pip-webui-csss",
     "ignore": [
         ".gitignore",
         "node_modules",
