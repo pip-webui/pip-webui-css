@@ -1,13 +1,16 @@
 module.exports = {
     module: {
         name: 'pipCssFrameWork',
-        styles: 'styles'
+        styles: 'styles',
+        export: 'pip'
     },
     build: {
         js: false,
         ts: false,
+        tsd: false,
+        bundle: false, 
         html: false,
-        css: true,
+        less: true,
         lib: true,
         images: true,
         dist: false
