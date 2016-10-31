@@ -2,7 +2,7 @@ module.exports = {
     module: {
         name: 'pipCssFrameWork',
         styles: 'styles',
-        export: 'pip',
+        export: 'pip.css',
         standalone: 'pip.css'
     },
     build: {
