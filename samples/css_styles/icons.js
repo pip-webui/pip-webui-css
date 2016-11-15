@@ -57,7 +57,17 @@
                 'contacts', 'paid', 'admin',
                 'feedback', 'plus-square',
                 'pie-circle', 'preview', 'info-circle-outline', 'info-phone',
-                'label', 'collapse', 'expand', 'delete', 'plus-circle-outline', 'minus-circle-outline'
+                'label', 'collapse', 'expand', 'delete', 'plus-circle-outline', 'minus-circle-outline',
+
+                'box-clock', 'dots-circle', 'four-circles', 'boxes', 'database', 'large-list',
+                'gears', 'paper-plane', 'pie-chart', 'full-moon', 'first-aid', 'text-wrapping-3',
+                'text-wrapping-2', 'text-wrapping-1', 'hierarchy-1', 'hierarchy-2', 'hierarchy-3',
+                'hierarchy-4', 'hierarchy-5', 'hierarchy-6', 'hierarchy-7',
+                'layers', 'registry-2', 'document-box-1', 'cube', 'database-minus', 'marker-1',
+                'map-pin', 'map-marker-1', 'receipt-3',
+                'receipt-4', 'arrange-1', 'bin-2', 'bin-1',
+                'delete-2', 'anchor-point-2', 'anchor-point-1'
+                
 
 
             ];
