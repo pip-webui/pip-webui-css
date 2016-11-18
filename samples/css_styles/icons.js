@@ -66,7 +66,23 @@
                 'layers', 'registry-2', 'document-box-1', 'cube', 'database-minus', 'marker-1',
                 'map-pin', 'map-marker-1', 'receipt-3',
                 'receipt-4', 'arrange-1', 'bin-2', 'bin-1',
-                'delete-2', 'anchor-point-2', 'anchor-point-1'
+                'delete-2', 'anchor-point-2', 'anchor-point-1',
+
+                'filter', 'dashboard', 'in-out', 'rack', 'out', 'circle-check',  'aptos-asn', 'aptos-invoice', 
+                'aptos-po-cancellation', 'aptos-po-receipt', 'aptos-product', 'aptos-purchase-order', 
+                'aptos-vendor', 'backorder-po-receipt', 'backorder-po-request', 'backorder-purchase-order', 
+                'commercehub-asn', 'commercehub-invoice',
+                'commercehub-purchase-order', 'product-full-sync', 'message-receiver', 
+                'locate-purchase-order', 'locate-invoice', 'flex-product',  'ecutopiapurchase-order',
+                'ecutopiainvoice', 'ecutopiaasn', 'dropship-purchase-order', 'dropship-po-receipt', 
+                'dropship-invoice', 'data-cleanup', 'compensation', 'product-sync-changes', 
+                'replenishment-po-receipt', 'replenishment-purchase-order', 'serenade-invoice',
+                'serenade-po-cancellation', 'serenade-po-receipt', 'serenade-product',
+                'serenade-purchase-order', 'serenade-vendor', 'tr-clusters',  'tr-config',
+                'tr-custom', 'tr-duplicate', 'workflow-cleanup', 'vendor-sync-changes',
+                'vendor-full-sync', 'tr-traces', 'tr-temp-blobs', 'tr-statistics', 'tr-settings', 
+                'tr-queques', 'tr-mapping',
+                'tr-events', 'tr-errors'
                 
 
 
