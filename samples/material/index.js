@@ -27,7 +27,7 @@
         [
             // 3rd Party Modules
             'ui.router', 'ui.utils', 'ngResource', 'ngAria', 'ngCookies', 'ngSanitize', 'ngMessages',
-            'ngMaterial', 'wu.masonry', 'LocalStorageModule', 'angularFileUpload', 'ngAnimate',
+            'ngMaterial', 'wu.masonry', 'LocalStorageModule', 'ngAnimate',
             'appMaterial.Colors', 'appMaterial.Card', 'appMaterial.Input', 'appMaterial.Button',
             'appMaterial.Checkbox', 'appMaterial.RadioButton', 'appMaterial.Chips', 'appMaterial.Progress',
             'appMaterial.Toolbar', 'appMaterial.Divider', 'appMaterial.BottomSheet', 'appMaterial.DatePicker',
