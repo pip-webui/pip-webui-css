@@ -29,7 +29,17 @@ gulp.task('build-less', function() {
         .pipe(gulp.dest('./dist'));
 });
 
-// Define build tasks        
+var sass = require('gulp-sass');
+
+gulp.task('build-scss', function () {
+    
+  return gulp.src(['./src/colors/*.scss'])
+    .pipe(concat(pkg.name + '.scss'))
+    .pipe(gulp.dest('./dist'));
+});
+
+// Define build tasks      
+gulp.task('build-sass', ['build-scss', 'build-sass-dev', 'build-sass-prod']);  
 gulp.task('build', ['build-dev', 'build-prod', 'build-less']);
 gulp.task('rebuild', ['build-dev']);
 gulp.task('clean', ['build-clean']);
