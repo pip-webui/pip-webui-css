@@ -55,7 +55,7 @@ gulp.task('build-scss', function () {
 
 // Define build tasks      
 gulp.task('build-sass', ['build-scss', 'build-sass-dev', 'build-sass-prod']);  
-gulp.task('build', ['build-dev', 'build-prod']); // 'build-less'
+gulp.task('build', ['build-dev', 'build-prod', 'build-less', 'build-sass']); // 'build-less'
 gulp.task('rebuild', ['build-dev']);
 gulp.task('clean', ['build-clean']);
 gulp.task('watch', ['build-watch']);
