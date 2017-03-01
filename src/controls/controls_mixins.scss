@@ -4,24 +4,24 @@
 // Scrolling
 //------------
 
-.scroll() {
+@mixin scroll() {
     overflow: auto !important;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.no-scroll() {
+@mixin no-scroll() {
   overflow: hidden !important; // Alex D put !important here
 }
 
-.scroll-x() {
+@mixin scroll-x() {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.scroll-y() {
+@mixin scroll-y() {
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
