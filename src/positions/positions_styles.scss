@@ -1,0 +1,35 @@
+// $file Positioning styles
+// $copyright Digital Living Software Corp. 2014-2015
+
+// Floats
+// -------------------------
+
+.clearfix     { @include clearfix(); }
+.center-block { @include center-block(); }
+
+.pull-right   { float: right !important; }
+.pull-left    { float: left !important; }
+
+// Visibility
+//------------
+
+.invisible { visibility: hidden; }
+
+.display{ display: block}
+
+// Hide from screenreaders and browsers
+// Credit: HTML5 Boilerplate
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+// Positioning
+//--------------
+
+.position-relative  { @include position-relative(); }
+.position-fixed     { @include position-fixed();    }
+.position-fill      { @include position-fill();     }
+.position-top       { @include position-top();      }
+.position-bottom    { @include position-bottom();   }
+.position-right     { @include position-absolute(0, none, 0, none)}
