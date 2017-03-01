@@ -1,0 +1,18 @@
+// $file Flexbox CSS styles
+// $copyright Digital Living Software Corp. 2014-2015
+
+@mixin flex-fixed {
+    @include flex-fixed();
+}
+
+@mixin flex-var {
+    @include flex-var();
+}
+
+@mixin flex-grow {
+    @include flex-grow();
+}
+
+@mixin flex-shrink {
+    @include flex-shrink();
+}
