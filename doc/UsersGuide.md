@@ -69,10 +69,10 @@ CSS classes and mixins to set fonts, sizes, styles and other visual text attribu
 * **text-caption**  - add style font: normal 400 12px Roboto, 'Helvetica Neue', sans-serif;
 * **text-button** - add style font: normal 500 14px Roboto, 'Helvetica Neue', sans-serif;
 
-### LESS Mixins
+### SCSS Mixins
 * **text-hide()** - text hidden 
 * **text-overflow()** - overflow text
-* **hyphens(@mode: auto)** - optional hyphenation
+* **hyphens($mode: auto)** - optional hyphenation
 
 ## <a name="positions"></a> Positions styles and mixins
 
@@ -95,12 +95,12 @@ CSS classes and mixins to position elements on web pages
 * **pull-right** - add style float: right
 * **pull-left** - add style float: left
 
-### LESS Mixins
+### SCSS Mixins
 * **center-block()** - center-align a block level element
-* **content-columns(@column-count; @column-gap: @grid-gutter-width)** -
+* **content-columns($column-count; $column-gap: $grid-gutter-width)** -
 * **position-relative()** - add style position: relative 
 * **position-fixed()** - add style position: fixed
-* **position-absolute(@top, @left, @right, @bottom)** - add style position: absolute 
+* **position-absolute($top, $left, $right, $bottom)** - add style position: absolute 
 * **position-fill** - add style position: relative
 * **position-top** - add style position: absolute with top: 0 
 * **position-bottom** - add style position: absolute with bottom: 0 
@@ -191,28 +191,28 @@ CSS classes and mixins to set width, height, paddings and margins for elements
 * **max-h50-stretch**- add style max-height: 50%
 * **max-h100** - add style max-height: 100px
 
-### LESS Mixins
-* **w(@size)** - add width styles
-* **min-w(@size)** - add min-width styles
-* **max-w(@size)** - add max-width styles
-* **h(@size)** - add height styles
-* **min-h(@size)** - add min-height styles
-* **max-h(@size)** - add max-height styles
+### SCSS Mixins
+* **w($size)** - add width styles
+* **min-w($size)** - add min-width styles
+* **max-w($size)** - add max-width styles
+* **h($size)** - add height styles
+* **min-h($size)** - add min-height styles
+* **max-h($size)** - add max-height styles
 
-* **m(@size)**  - add margin styles
-* **tm(@size)** - add margin-top styles
-* **bm(@size)** - add margin-bottom styles
-* **lm(@size)** - add margin-left styles
-* **rm(@size)** - add margin-right styles
-* **p(@size)**  - add padding styles
-* **tp(@size)** - add padding-top styles
-* **bp(@size)** - add padding-bottom styles
-* **lp(@size)** - add padding-left styles
-* **rp(@size)** - add padding-right styles
+* **m($size)**  - add margin styles
+* **tm($size)** - add margin-top styles
+* **bm($size)** - add margin-bottom styles
+* **lm($size)** - add margin-left styles
+* **rm($size)** - add margin-right styles
+* **p($size)**  - add padding styles
+* **tp($size)** - add padding-top styles
+* **bp($size)** - add padding-bottom styles
+* **lp($size)** - add padding-left styles
+* **rp($size)** - add padding-right styles
 
-* **size(@width; @height)** - add height and width styles
-* **square(@size)** - add height and width styles when height = width
-* **circle(@size)** - add height and width styles when height = width and add border-radius: 50%
+* **size($width; $height)** - add height and width styles
+* **square($size)** - add height and width styles when height = width
+* **circle($size)** - add height and width styles when height = width and add border-radius: 50%
 
 ## <a name="flexbox"></a>  Flexbox styles and mixins
 
@@ -234,24 +234,24 @@ CSS classes and mixins to extend flexbox layouts implemented by Angular Material
 * **flex-horizontal-center** - add justify-content with parameters - center center
 * **flex-horizontal-end** - justify - content with parameters - end, flex-end
 
-### LESS Mixins
+### SCSS Mixins
 
 * **flex()** - add display flex
-* **flex-direction(@direction)** - add direction
+* **flex-direction($direction)** - add direction
 * **flex-direction-row()** - add row direction
 * **flex-direction-column()** - add column direction
-* **flex-flow(@direction, @wrap)** - add flex direction + flex-wrap
+* **flex-flow($direction, $wrap)** - add flex direction + flex-wrap
 * **flex-flow-row-wrap()** - add display flex + row direction + flex-wrap: wrap;
-* **flex-element(@grow, @shrink, @initialSize: auto)** - add flex with parameters
+* **flex-element($grow, $shrink, $initialSize: auto)** - add flex with parameters
 * **flex-fixed()** - is equal to flex-element with parameters 0, 0, auto
 * **flex-var()** - is equal to flex-element with parameters 1, 1, auto
 * **flex-grow()** - is equal to flex-element with parameters 1, 0, auto
 * **flex-shrink()** - is equal to flex-element with parameters 0, 1, auto
-* **flex-order(@index)** -  add order index
-* **flex-vertical-content(@value)** - add  align-items
+* **flex-order($index)** -  add order index
+* **flex-vertical-content($value)** - add  align-items
 * **flex-vertical-center()** - add  align-items:center
 * **flex-vertical-start()** - add align-items:start
-* **flex-justify-content(@value, @oldValue)** - add justify-content with oldValue for webkit and  value for other browsers
+* **flex-justify-content($value, $oldValue)** - add justify-content with oldValue for webkit and  value for other browsers
 * **flex-horizontal-start()** - add justify-content with parameters - start, flex-start
 * **flex-horizontal-center()** - add justify-content with parameters - center center
 * **flex-horizontal-end()** - justify - content with parameters - end, flex-end
@@ -293,24 +293,24 @@ CSS classes and mixins to set colors from predefined pallettes or special color 
 * **border-teal** - teal border
 * **fg-teal** - teal text
 
-### LESS Mixins
-* **generate-theme(@name, @palette)** - mixin for generate theme with @name. This mixin add class:
-   - **color-primary** - color text (extract(@palette, 1))
-   - **color-primary-bg** - color  background (extract(@palette, 1))
-   - **color-accent** - color text (extract(@palette, 2))
-   - **color-accent-bg** -  color  background (extract(@palette, 2))
-   - **color-accent-hue-bg** -  color  background (extract(@palette, 12))
-   - **color-hue** -  color text (extract(@palette, 3))
-   - **color-hue-bg** -  color  background (extract(@palette, 3))
-   - **color-primary-text** -  color for primaty text (extract(@palette, 4))
-   - **color-secondary-text** - color for text  with opacity (extract(@palette, 5))
-   - **color-divider** - color for all dividers (extract(@palette, 6))
-   - **color-badge** - color for badge text (extract(@palette, 7))
-   - **color-badge-bg** - color for badge background (extract(@palette, 7))
-   - **color-error** - color for error hints  (extract(@palette, 8))
-   - **color-toast** - background for toast  message (extract(@palette, 9))
-   - **color-content-bg** - color background for content (extract(@palette, 10))
-   - **color-window-bg** - color background for window (extract(@palette, 11))
+### SCSS Mixins
+* **generate-theme($name, $palette)** - mixin for generate theme with $name. This mixin add class:
+   - **color-primary** - color text (extract($palette, 1))
+   - **color-primary-bg** - color  background (extract($palette, 1))
+   - **color-accent** - color text (extract($palette, 2))
+   - **color-accent-bg** -  color  background (extract($palette, 2))
+   - **color-accent-hue-bg** -  color  background (extract($palette, 12))
+   - **color-hue** -  color text (extract($palette, 3))
+   - **color-hue-bg** -  color  background (extract($palette, 3))
+   - **color-primary-text** -  color for primaty text (extract($palette, 4))
+   - **color-secondary-text** - color for text  with opacity (extract($palette, 5))
+   - **color-divider** - color for all dividers (extract($palette, 6))
+   - **color-badge** - color for badge text (extract($palette, 7))
+   - **color-badge-bg** - color for badge background (extract($palette, 7))
+   - **color-error** - color for error hints  (extract($palette, 8))
+   - **color-toast** - background for toast  message (extract($palette, 9))
+   - **color-content-bg** - color background for content (extract($palette, 10))
+   - **color-window-bg** - color background for window (extract($palette, 11))
    - **color-disabled** - text color for disabled text
    - **color-disabled-bg** - color background for disabling div
 
@@ -328,15 +328,15 @@ CSS classes and mixins to specify animations and transformations. It also has CS
 * **rotate** - rotate animation
 * **pip-blink-text** - blinking text
 
-### LESS Mixins
-* **animation (@name, @duration: 300ms, @delay: 0, @ease: ease)** - add animation style
-* **animation-name(@name)** - set animation name
-* **animation-duration(@duration)** - set animation duration
-* **animation-timing-function(@timing-function)** - add style for timing animation
-* **animation-delay(@delay)** - set delay of animation 
-* **animation-direction(@direction)** - set direction of animation
-* **animation-fill-mode(@fill-mode)** - set fill mode
-* **backface-visibility(@visibility)** - prevent browsers from flickering when using CSS 3D transforms. Default value is `visible`, but can be changed to `hidden`
+### SCSS Mixins
+* **animation ($name, $duration: 300ms, $delay: 0, $ease: ease)** - add animation style
+* **animation-name($name)** - set animation name
+* **animation-duration($duration)** - set animation duration
+* **animation-timing-function($timing-function)** - add style for timing animation
+* **animation-delay($delay)** - set delay of animation 
+* **animation-direction($direction)** - set direction of animation
+* **animation-fill-mode($fill-mode)** - set fill mode
+* **backface-visibility($visibility)** - prevent browsers from flickering when using CSS 3D transforms. Default value is `visible`, but can be changed to `hidden`
 * **pip-blink()** - add class for blinking text
 
 ## <a name="controls"></a> Control properties styles and mixins
@@ -354,9 +354,9 @@ CSS styles and mixins to change behavior of HTML controls. They allow to change 
 * **cursor-auto** - change for cursor: auto
 * **cursor-move** - change for cursor: move
 
-### LESS Mixins
-* **placeholder(@color: @input-color-placeholder)** - add color for placeholder text
-* **user-select(@select)** - for selecting text on the page
+### SCSS Mixins
+* **placeholder($color: $input-color-placeholder)** - add color for placeholder text
+* **user-select($select)** - for selecting text on the page
 * **tab-focus()** - webKit-style focus
 * **scroll()** - add scrolling styles for both axes
 * **scroll-x()** - add style for scrolling on the horizontal
