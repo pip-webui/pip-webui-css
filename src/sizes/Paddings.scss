@@ -1,0 +1,92 @@
+.p0 { @include p(0); }
+.p2 { @include p(2px); }
+.p4 { @include p(4px); }
+.p8 { @include p(8px); }
+.p12 { @include p(12px); }
+.p16 { @include p(16px); }
+.p24 { @include p(24px); }
+.p8-flex { @include p(8px); }
+.p12-flex { @include p(12px); }
+.p16-flex { @include p(16px); }
+.p24-flex { @include p(24px); }
+.p32-flex { @include p(32px); }
+
+
+.tp0 { @include tp(0); }
+.tp2 { @include tp(2px); }
+.tp4 { @include tp(4px); }
+.tp8 { @include tp(8px); }
+.tp12 { @include tp(12px); }
+.tp16 { @include tp(16px); }
+.tp24 { @include tp(24px); }
+.tp12-flex { @include tp(12px); }
+.tp16-flex { @include tp(16px); }
+.tp24-flex { @include tp(24px); }
+.tp32-flex { @include tp(32px); }
+
+
+.bp0 { @include bp(0); }
+.bp2 { @include bp(2px); }
+.bp4 { @include bp(4px); }
+.bp8 { @include bp(8px); }
+.bp12 { @include bp(12px); }
+.bp16 { @include bp(16px); }
+.bp24 { @include bp(24px); }
+.bp12-flex { @include bp(12px); }
+.bp16-flex { @include bp(16px); }
+.bp24-flex { @include bp(24px); }
+.tp32-flex { @include tp(32px); }
+
+
+.lp0 { @include lp(0); }
+.lp2 { @include lp(2px); }
+.lp4 { @include lp(4px); }
+.lp8 { @include lp(8px); }
+.lp12 { @include lp(12px); }
+.lp16 { @include lp(16px); }
+.lp24 { @include lp(24px); }
+.lp12-flex { @include lp(12px); }
+.lp16-flex { @include lp(16px); }
+.lp24-flex { @include lp(24px); }
+.tp32-flex { @include tp(32px); }
+
+
+// Add right paddings
+.rp0 { @include rp(0); }
+.rp2 { @include rp(2px); }
+.rp4 { @include rp(4px); }
+.rp8 { @include rp(8px); }
+.rp12 { @include rp(12px); }
+.rp16 { @include rp(16px); }
+.rp24 { @include rp(24px); }
+.rp12-flex { @include rp(12px); }
+.rp16-flex { @include rp(16px); }
+.rp24-flex { @include rp(24px); }
+.rp32-flex { @include rp(32px); }
+
+@media (max-width: 1200px) {
+    .p12-flex { @include p(4px); }
+    .p16-flex { @include p(8px); }
+    .p24-flex { @include p(16px); }
+    .p32-flex { @include p(16px); }
+
+    .tp12-flex { @include tp(4px); }
+    .tp16-flex { @include tp(8px); }
+    .tp24-flex { @include tp(16px); }
+    .tp32-flex { @include tp(16px); }
+
+    .bp12-flex { @include bp(4px); }
+    .bp16-flex { @include bp(8px); }
+    .bp24-flex { @include bp(16px); }
+    .bp32-flex { @include bp(16px); }
+
+    .lp12-flex { @include lp(4px); }
+    .lp16-flex { @include lp(8px); }
+    .lp24-flex { @include lp(16px); }
+    .lp32-flex { @include lp(16px); }
+
+    .rp12-flex { @include rp(4px); }
+    .rp16-flex { @include rp(8px); }
+    .rp24-flex { @include rp(16px); }
+    .rp32-flex { @include rp(16px); }
+}

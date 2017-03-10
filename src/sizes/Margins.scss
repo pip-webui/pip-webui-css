@@ -1,0 +1,85 @@
+.m-auto { @include m(0 auto)};
+.m-10 { @include m(-10px); }
+.m0 { @include m(0); }
+.m1 { @include m(1px); }
+.m2 { @include m(2px); }
+.m4 { @include m(4px); }
+.m8 { @include m(8px); }
+.m12 { @include m(12px); }
+.m16 { @include m(16px); }
+.m24 { @include m(24px); }
+.m16-flex { @include m(16px); }
+.m24-flex { @include m(24px); }
+
+
+.tm-10 { @include tm(-10px); }
+.tm0 { @include tm(0); }
+.tm2 { @include tm(2px); }
+.tm4 { @include tm(4px); }
+.tm8 { @include tm(8px); }
+.tm12 { @include tm(12px); }
+.tm16 { @include tm(16px); }
+.tm24 { @include tm(24px); }
+.tm32 { @include tm(32px); }
+.tm48 { @include tm(48px); }
+.tm16-flex { @include tm(16px); }
+.tm24-flex { @include tm(24px); }
+
+
+.bm-10 { @include bm(-10px); }
+.bm0 { @include bm(0px); }
+.bm2 { @include bm(2px); }
+.bm4 { @include bm(4px); }
+.bm8 { @include bm(8px); }
+.bm12 { @include bm(12px); }
+.bm16 { @include bm(16px); }
+.bm24 { @include bm(24px); }
+.bm16-flex { @include bm(16px); }
+.bm24-flex { @include bm(24px); }
+
+
+.lm-10 { @include lm(-10px); }
+.lm0 { @include lm(0); }
+.lm2 { @include lm(2px); }
+.lm4 { @include lm(4px); }
+.lm8 { @include lm(8px); }
+.lm12 { @include lm(12px); }
+.lm16 { @include lm(16px); }
+.lm24 { @include lm(24px); }
+.lm56 { @include lm(56px); }
+.lm16-flex { @include lm(16px); }
+.lm24-flex { @include lm(24px); }
+
+
+.rm-10 { @include rm(-10px); }
+.rm0 { @include rm(0px); }
+.rm2 { @include rm(2px); }
+.rm4 { @include rm(4px); }
+.rm8 { @include rm(8px); }
+.rm12 { @include rm(12px); }
+.rm16 { @include rm(16px); }
+.rm24 { @include rm(24px); }
+.rm16-flex { @include rm(16px); }
+.rm24-flex { @include rm(24px); }
+.rm24-flex0 { @include rm(24px); }
+
+@media (max-width: 1200px) {
+    .m16-flex { @include m(8px); }
+    .m24-flex { @include m(16px); }
+
+    .tm16-flex { @include tm(8px); }
+    .tm24-flex { @include tm(16px); }
+
+    .bm16-flex { @include bm(8px); }
+    .bm24-flex { @include bm(16px); }
+
+    .lm16-flex { @include lm(8px); }
+    .lm24-flex { @include lm(16px); }
+
+    .rm16-flex { @include rm(8px); }
+    .rm24-flex { @include rm(16px); }
+}
+
+@media (max-width: 768px) {
+    .rm24-flex0 { @include rm(0px); }
+}

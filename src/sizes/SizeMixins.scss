@@ -1,0 +1,47 @@
+@mixin w($size)     { width: $size !important; }
+@mixin min-w($size) { min-width: $size !important; }
+@mixin max-w($size) { max-width: $size !important; }
+
+@mixin h($size)     { height: $size !important; }
+@mixin min-h($size) { min-height: $size !important; }
+@mixin max-h($size) { max-height: $size !important; }
+
+@mixin m($size)  { margin: $size !important; }
+@mixin tm($size) { margin-top: $size !important; }
+@mixin bm($size) { margin-bottom: $size !important; }
+@mixin lm($size) { margin-left: $size !important; }
+@mixin rm($size) { margin-right: $size !important; }
+
+@mixin p($size) { padding: $size !important; }
+@mixin tp($size) { padding-top: $size !important; }
+@mixin bp($size) { padding-bottom: $size !important; }
+@mixin lp($size) { padding-left: $size !important; }
+@mixin rp($size) { padding-right: $size !important; }
+
+
+@mixin size($width, $height) {
+  width:  $width;
+  height: $height;
+}
+
+@mixin square($size) {
+  @include size($size, $size);
+}
+
+@mixin circle($size){
+  @include size($size, $size);
+  height: $size !important;
+  border-radius: $size / 2;
+}
+
+@mixin resizable($direction) {
+  resize: $direction; // Options: horizontal, vertical, both
+  overflow: auto; // Per CSS3 UI, `resize` only applies when `overflow` isn't `visible`
+}
+
+@mixin box-sizing ($type: border-box) {
+	-webkit-box-sizing: $type;
+	-moz-box-sizing:    $type;
+  -ms-box-sizing:     $type;
+	box-sizing:         $type;
+}

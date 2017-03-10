@@ -1,0 +1,64 @@
+.fade {
+  opacity: 0;
+  @include transition(opacity .3s linear);
+  &.in {
+    opacity: 1;
+  }
+}
+
+.collapse {
+  display: none;
+  visibility: hidden;
+
+  &.in {
+    display: block;
+    visibility: visible;
+  }
+  tr &.in {
+    display: table-row;
+  }
+  tbody &.in {
+    display: table-row-group;
+  }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  @include transition-property("height, visibility");
+  @include transition-duration(.35s);
+  @include transition-timing-function(ease);
+}
+
+.grow {
+  @include transition(all .3s linear);
+  &.in {
+    @include scaleX(1.3);
+  }
+}
+
+.shrink {
+  @include transition(all .1s linear);
+  &.in {
+    @include scaleX(0.8);
+  }
+}
+
+@mixin rotate {
+  @include transition(all .1s linear);
+  &.in {
+    @include rotate(-30deg);
+  }
+}
+
+@mixin pip-blink-text {
+  @include pip-blink();
+}
+
+@mixin pip-blink-input-container {
+  label {
+    @include pip-blink();
+  }
+
+}

@@ -1,0 +1,40 @@
+.h0 { @include h(0); }
+.h2 { @include h(2px); }
+.h4 { @include h(4px); }
+.h8 { @include h(8px); }
+.h16 { @include h(16px); }
+.h24 { @include h(24px); }
+.h40 { @include h(40px); }
+.h48 { @include h(48px); }
+.h56 { @include h(56px); }
+.h64 { @include h(64px); }
+.h72 { @include h(72px); }
+.h88 { @include h(88px); }
+.h110 { @include h(110px); }
+.h240 { @include h(240px); }
+.h440 { @include h(440px); }
+.h12e { @include h(1.2em); }
+.h15e { @include h(1.5em); }
+.h3e { @include h(3em); }
+.h-stretch { @include h(100%); }
+
+.min-h48 { @include min-h(48px);  }
+.min-h56 { @include min-h(56px);  }
+.min-h64 { @include min-h(64px);  }
+.min-h72 { @include min-h(72px);  }
+.min-h88 { @include min-h(88px);  }
+.min-h136 { @include min-h(136px);  }
+
+// Todo: Rename
+.min-h33-stretch { @include min-h(33%); }
+.min-h50-stretch { @include min-h(50%); }
+.min-h100-stretch { @include min-h(100%); }
+
+.max-h48{ @include max-h(48px);  }
+.max-h64{ @include max-h(64px);  }
+.max-h72{ @include max-h(72px);  }
+.max-h33-stretch{ @include max-h(33%); }
+.max-h50-stretch{ @include max-h(50%); }
+.max-h100-stretch{ @include max-h(100%); }
+.max-h3e{ @include max-h(3em); }
+.max-h45e{ @include max-h(4.5em); }
