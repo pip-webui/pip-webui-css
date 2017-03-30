@@ -8,7 +8,7 @@ require('pip-webui-tasks').all(gulp);
 
 var sass = require('gulp-sass');
 
-gulp.task('build-scss-css', function () {
+gulp.task('build-scss', function () {
 
   return gulp.src(['./src/colors/ColorVariables.scss',
     './src/controls/ControlsMixins.scss',
@@ -28,7 +28,7 @@ gulp.task('build-scss-css', function () {
 });
 
 // Define build tasks      
-gulp.task('build-sass', ['build-scss-css', 'build-sass-dev', 'build-sass-prod']);
+gulp.task('build-sass', ['build-scss', 'build-sass-dev', 'build-sass-prod']);
 gulp.task('rebuild', ['build-dev', 'build-prod', 'build-sass']); // 'build-less'
 gulp.task('build', ['build-dev', 'build-scss']);
 gulp.task('clean', ['build-clean']);
