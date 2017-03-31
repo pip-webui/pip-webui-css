@@ -15,7 +15,7 @@ gulp.task('build-scss', function () {
     './src/effects/AnimationMixins.scss',
     './src/effects/EffectMixins.scss',
     './src/effects/TransformMixins.scss',
-    './src/effects/EffectsVariables.scss',
+    './src/effects/EffectVariables.scss',
     './src/effects/TransitionMixins.scss',
     './src/flexbox/FlexboxMixins.scss',
     './src/positions/PositionsMixins.scss',
